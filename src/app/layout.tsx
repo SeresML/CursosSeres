@@ -74,9 +74,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="flex flex-col items-center gap-8">
               <h3 className="text-2xl font-bold text-[#fc0000]">Nuestros Servicios</h3>
               <div className="flex flex-col gap-5 text-base font-medium text-gray-800">
-                <p>Medicina Laboral</p>
-                <p>Medicina Asistencial</p>
-                <p>Laboratorio de Análisis</p>
+                <a href="https://seressalud.com.ar/" target="_blank" rel="noopener noreferrer" className="hover:text-[#fc0000] transition-colors">Medicina Laboral</a>
+                <a href="https://www.consultoriosmedicos.com.ar/" target="_blank" rel="noopener noreferrer" className="hover:text-[#fc0000] transition-colors">Medicina Asistencial</a>
+                <a href="https://www.analisisclinicos.com.ar/" target="_blank" rel="noopener noreferrer" className="hover:text-[#fc0000] transition-colors">Laboratorio de Análisis</a>
               </div>
             </div>
             
