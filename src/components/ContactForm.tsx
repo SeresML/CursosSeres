@@ -11,7 +11,7 @@ export default function ContactForm({ title = "Envia tu Consulta", hideTitle = f
           {title}
         </h2>
       )}
-      <form className="w-full max-w-4xl px-6 flex flex-col gap-4">
+      <form className="w-full max-w-4xl flex flex-col gap-4">
         <input 
           type="text" 
           placeholder="Contacto / Empresa" 
