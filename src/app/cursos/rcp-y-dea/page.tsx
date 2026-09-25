@@ -25,7 +25,7 @@ export default function RcpYDea() {
           {/* Right Side: Form in a Card */}
           <div className="w-full md:w-1/2 flex justify-end">
             <div className="bg-white rounded-xl shadow-2xl p-8 md:p-10 w-full max-w-lg">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#fc0000] mb-6 text-left">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#fc0000] mb-6 text-center">
                 ¡Consulte nuestros cursos!
               </h2>
               <ContactForm hideTitle={true} />
