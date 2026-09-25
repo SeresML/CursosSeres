@@ -5,18 +5,32 @@ import ContactForm from "@/components/ContactForm";
 export default function PrimerosAuxilios() {
   return (
     <>
-      {/* Hero Section */}
-      <section className="relative w-full h-[55vh] min-h-[400px] flex items-center justify-center overflow-hidden">
+      {/* Hero Section Split with Full-Width Background */}
+      <section className="relative w-full min-h-[600px] flex items-center justify-center pt-32 pb-16">
         <div className="absolute inset-0 z-0 bg-black">
-          <div className="w-full h-full bg-[url('/bg.png')] bg-cover bg-center opacity-60" />
+          <div className="w-full h-full bg-[url('/bg.png')] bg-cover bg-center opacity-70" />
         </div>
-        <div className="relative z-20 text-center px-4 mt-12">
-          <h1 className="text-5xl md:text-7xl font-bold text-[#e80000] tracking-widest uppercase mb-4" style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.7)' }}>
-            Primeros Auxilios
-          </h1>
-          <p className="text-xl md:text-2xl text-white font-medium" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
-            Aprende a salvar vidas
-          </p>
+        
+        <div className="relative z-20 w-full max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-12 mt-12">
+          {/* Left Side: Title */}
+          <div className="w-full md:w-1/2 text-left flex flex-col justify-center">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#e80000] tracking-widest uppercase mb-4" style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.7)' }}>
+              CURSO DE PRIMEROS AUXILIOS
+            </h1>
+            <p className="text-xl md:text-2xl text-white font-medium" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
+              Para Empresas
+            </p>
+          </div>
+
+          {/* Right Side: Form in a Card */}
+          <div className="w-full md:w-1/2 flex justify-end">
+            <div className="bg-white rounded-xl shadow-2xl p-8 md:p-10 w-full max-w-lg">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#fc0000] mb-6 text-left">
+                ¡Consulte nuestros cursos!
+              </h2>
+              <ContactForm hideTitle={true} />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -61,7 +75,7 @@ export default function PrimerosAuxilios() {
             </div>
           </div>
 
-          {/* Contact Form */}
+          {/* Contact Form Bottom */}
           <div className="mt-20">
             <ContactForm />
           </div>

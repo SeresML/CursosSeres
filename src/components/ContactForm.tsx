@@ -1,9 +1,16 @@
-export default function ContactForm() {
+interface ContactFormProps {
+  title?: string;
+  hideTitle?: boolean;
+}
+
+export default function ContactForm({ title = "Envia tu Consulta", hideTitle = false }: ContactFormProps = {}) {
   return (
     <div className="w-full flex flex-col items-center">
-      <h2 className="text-[34px] md:text-4xl font-bold text-[#fc0000] underline decoration-2 underline-offset-4 mb-16 text-center">
-        Envia tu Consulta
-      </h2>
+      {!hideTitle && (
+        <h2 className="text-[34px] md:text-4xl font-bold text-[#fc0000] underline decoration-2 underline-offset-4 mb-16 text-center">
+          {title}
+        </h2>
+      )}
       <form className="w-full max-w-4xl px-6 flex flex-col gap-4">
         <input 
           type="text" 
