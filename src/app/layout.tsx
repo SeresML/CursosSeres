@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Jost } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
+import { GoogleTagManager } from "@next/third-parties/google";
 import Header from "@/components/Header";
 import "./globals.css";
 
@@ -18,6 +19,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" className="h-full antialiased">
+      <GoogleTagManager gtmId="GTM-NSXNM7T8" />
       <body className={`${jost.className} min-h-screen bg-gray-50 text-gray-900 flex flex-col`}>
         {/* Navbar Dinámico */}
         <Header />

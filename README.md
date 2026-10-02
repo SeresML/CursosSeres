@@ -20,6 +20,23 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Formulario de consulta
+
+El formulario (`src/components/ContactForm.tsx`, acción en `src/app/actions.ts`) manda
+cada consulta por mail a servicios@seressalud.com.ar y gestionimpulsodigital@gmail.com.
+Necesita estas variables de entorno (en Vercel: Settings → Environment Variables):
+
+| Variable | Ejemplo |
+|---|---|
+| `SMTP_HOST` | `smtp-relay.brevo.com` / `smtp.gmail.com` |
+| `SMTP_PORT` | `587` (o `465` para SSL) |
+| `SMTP_USER` | usuario de la cuenta SMTP |
+| `SMTP_PASS` | clave SMTP (en Gmail, una contraseña de aplicación) |
+| `SMTP_FROM` | opcional, por defecto `Cursos Seres <servicios@seressalud.com.ar>` |
+
+Al enviarse bien, empuja el evento `formulario_enviado` al dataLayer de Google Tag
+Manager (GTM-NSXNM7T8), para usarlo como activador de la conversión de Google Ads.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
