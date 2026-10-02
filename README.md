@@ -23,11 +23,13 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 ## Formulario de consulta
 
 El formulario (`src/components/ContactForm.tsx`) manda cada consulta por mail con
-[FormSubmit](https://formsubmit.co) a servicios@seressalud.com.ar, con copia a
-gestionimpulsodigital@gmail.com. No necesita servidor ni variables de entorno.
+[FormSubmit](https://formsubmit.co) a gestionimpulsodigital@gmail.com, con copia a
+servicios@seressalud.com.ar. No necesita servidor ni variables de entorno.
 
-La primera consulta dispara un mail de activación a servicios@seressalud.com.ar:
-hasta que se confirma ese mail, FormSubmit no reenvía nada.
+La primera consulta dispara un mail de activación a gestionimpulsodigital@gmail.com
+(la copia nunca lo recibe): hasta que se confirma, FormSubmit no reenvía nada.
+FormSubmit activa por página de origen; el fetch usa `referrerPolicy: "origin"`
+para que todo el sitio cuente como un solo formulario (una activación por dominio).
 
 Al enviarse bien, empuja el evento `formulario_enviado` al dataLayer de Google Tag
 Manager (GTM-NSXNM7T8), para usarlo como activador de la conversión de Google Ads.

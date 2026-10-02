@@ -5,9 +5,11 @@ import { usePathname } from "next/navigation";
 import { sendGTMEvent } from "@next/third-parties/google";
 
 // FormSubmit manda la consulta por mail sin servidor propio. La primera vez
-// envía un mail de activación a DESTINO; hasta que no se confirma, no reenvía.
-const DESTINO = "servicios@seressalud.com.ar";
-const COPIA = "gestionimpulsodigital@gmail.com";
+// envía un mail de activación a DESTINO (nunca a la COPIA); hasta que no se
+// confirma, no reenvía. FormSubmit activa por página de origen: con
+// referrerPolicy "origin" todas las páginas del sitio cuentan como una sola.
+const DESTINO = "gestionimpulsodigital@gmail.com";
+const COPIA = "servicios@seressalud.com.ar";
 
 type Estado = { ok: boolean; mensaje: string } | null;
 
@@ -24,6 +26,7 @@ async function enviarConsulta(_prev: Estado, formData: FormData): Promise<Estado
   try {
     const respuesta = await fetch(`https://formsubmit.co/ajax/${DESTINO}`, {
       method: "POST",
+      referrerPolicy: "origin",
       headers: { "Content-Type": "application/json", Accept: "application/json" },
       body: JSON.stringify({
         "Contacto / Empresa": contacto,
@@ -43,7 +46,7 @@ async function enviarConsulta(_prev: Estado, formData: FormData): Promise<Estado
     if (!respuesta.ok || String(datos.success) !== "true") throw new Error(datos.message);
   } catch (error) {
     console.error("enviarConsulta: falló el envío", error);
-    return { ok: false, mensaje: `No pudimos enviar tu consulta. Probá de nuevo o escribinos a ${DESTINO}.` };
+    return { ok: false, mensaje: `No pudimos enviar tu consulta. Probá de nuevo o escribinos a ${COPIA}.` };
   }
 
   return { ok: true, mensaje: "¡Gracias! Recibimos tu consulta y te vamos a contactar a la brevedad." };
