@@ -22,17 +22,12 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Formulario de consulta
 
-El formulario (`src/components/ContactForm.tsx`, acción en `src/app/actions.ts`) manda
-cada consulta por mail a servicios@seressalud.com.ar y gestionimpulsodigital@gmail.com.
-Necesita estas variables de entorno (en Vercel: Settings → Environment Variables):
+El formulario (`src/components/ContactForm.tsx`) manda cada consulta por mail con
+[FormSubmit](https://formsubmit.co) a servicios@seressalud.com.ar, con copia a
+gestionimpulsodigital@gmail.com. No necesita servidor ni variables de entorno.
 
-| Variable | Ejemplo |
-|---|---|
-| `SMTP_HOST` | `smtp-relay.brevo.com` / `smtp.gmail.com` |
-| `SMTP_PORT` | `587` (o `465` para SSL) |
-| `SMTP_USER` | usuario de la cuenta SMTP |
-| `SMTP_PASS` | clave SMTP (en Gmail, una contraseña de aplicación) |
-| `SMTP_FROM` | opcional, por defecto `Cursos Seres <servicios@seressalud.com.ar>` |
+La primera consulta dispara un mail de activación a servicios@seressalud.com.ar:
+hasta que se confirma ese mail, FormSubmit no reenvía nada.
 
 Al enviarse bien, empuja el evento `formulario_enviado` al dataLayer de Google Tag
 Manager (GTM-NSXNM7T8), para usarlo como activador de la conversión de Google Ads.

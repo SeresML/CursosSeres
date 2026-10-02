@@ -3,7 +3,51 @@
 import { useActionState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { sendGTMEvent } from "@next/third-parties/google";
-import { enviarConsulta } from "@/app/actions";
+
+// FormSubmit manda la consulta por mail sin servidor propio. La primera vez
+// envía un mail de activación a DESTINO; hasta que no se confirma, no reenvía.
+const DESTINO = "servicios@seressalud.com.ar";
+const COPIA = "gestionimpulsodigital@gmail.com";
+
+type Estado = { ok: boolean; mensaje: string } | null;
+
+async function enviarConsulta(_prev: Estado, formData: FormData): Promise<Estado> {
+  const campo = (nombre: string) => String(formData.get(nombre) ?? "").trim();
+  const contacto = campo("contacto");
+  const telefono = campo("telefono");
+  const email = campo("email");
+
+  if (!contacto || (!telefono && !email)) {
+    return { ok: false, mensaje: "Completá tu nombre o empresa y un teléfono o e-mail para poder contactarte." };
+  }
+
+  try {
+    const respuesta = await fetch(`https://formsubmit.co/ajax/${DESTINO}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify({
+        "Contacto / Empresa": contacto,
+        "Teléfono": telefono,
+        email,
+        "Cantidad de Empleados": campo("empleados"),
+        "Mensaje": campo("mensaje"),
+        "Página": campo("origen"),
+        _subject: `Consulta Cursos Seres — ${contacto}`,
+        _cc: COPIA,
+        _template: "table",
+        _captcha: "false",
+        _honey: campo("web"),
+      }),
+    });
+    const datos = await respuesta.json();
+    if (!respuesta.ok || String(datos.success) !== "true") throw new Error(datos.message);
+  } catch (error) {
+    console.error("enviarConsulta: falló el envío", error);
+    return { ok: false, mensaje: `No pudimos enviar tu consulta. Probá de nuevo o escribinos a ${DESTINO}.` };
+  }
+
+  return { ok: true, mensaje: "¡Gracias! Recibimos tu consulta y te vamos a contactar a la brevedad." };
+}
 
 interface ContactFormProps {
   title?: string;
