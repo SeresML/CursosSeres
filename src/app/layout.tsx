@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { GoogleTagManager } from "@next/third-parties/google";
 import Header from "@/components/Header";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import "./globals.css";
 
 const jost = Jost({
@@ -28,6 +29,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="flex-grow relative">
           {children}
         </main>
+
+        {/* Botón Flotante de WhatsApp */}
+        <WhatsAppButton />
 
         {/* Footer */}
         <footer className="bg-[#f0f0f0] py-20 border-t border-gray-200">
