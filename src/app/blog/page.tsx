@@ -16,7 +16,7 @@ export default function Blog() {
         <div className="relative z-20 flex flex-col items-center text-center px-4 w-full mt-4">
           <h1 
             className="text-5xl md:text-6xl lg:text-[72px] font-bold text-[#e80000] tracking-normal mb-4 leading-none"
-            style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.7)' }}
+            style={{ textShadow: '2px 2px 6px rgba(255,255,255,0.85), 0px 0px 12px rgba(255,255,255,0.6)' }}
           >
             NUESTRO BLOG
           </h1>

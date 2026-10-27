@@ -14,7 +14,7 @@ export default function Contacto() {
         <div className="relative z-20 text-center px-4">
           <h1 
             className="text-6xl md:text-8xl font-bold text-[#e80000] tracking-widest uppercase"
-            style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.7)' }}
+            style={{ textShadow: '2px 2px 6px rgba(255,255,255,0.85), 0px 0px 12px rgba(255,255,255,0.6)' }}
           >
             CONTACTO
           </h1>
