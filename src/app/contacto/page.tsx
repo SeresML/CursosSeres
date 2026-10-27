@@ -23,18 +23,15 @@ export default function Contacto() {
 
       {/* Main Content */}
       <section className="py-24 bg-white">
-        <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24">
+        <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-start">
           
           {/* Left Column: Form */}
-          <div className="flex flex-col items-center">
-            <h2 className="text-[34px] md:text-[36px] font-bold text-[#fc0000] underline decoration-2 underline-offset-4 mb-10 text-center">
-              Envia tu Consulta
-            </h2>
-            <ContactForm hideTitle={true} />
+          <div className="flex flex-col items-center w-full">
+            <ContactForm />
           </div>
 
           {/* Right Column: Contact Info */}
-          <div className="flex flex-col items-center md:items-start pt-4 md:pt-0">
+          <div className="flex flex-col items-center md:items-start pt-4 md:pt-6">
             <h2 className="text-[34px] md:text-[36px] font-bold text-[#fc0000] mb-12 text-center md:text-left w-full">
               Habla con Nosotros
             </h2>
@@ -73,7 +70,7 @@ export default function Contacto() {
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                   </svg>
                 </div>
-                <a href="tel:42221597" className="text-xl text-gray-900 underline decoration-1 underline-offset-4 hover:text-[#fc0000] transition">
+                <a href="tel:4222-1597" className="text-xl text-gray-900 underline decoration-1 underline-offset-4 hover:text-[#fc0000] transition">
                   4222-1597
                 </a>
               </div>
