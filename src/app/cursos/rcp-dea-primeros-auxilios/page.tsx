@@ -13,7 +13,7 @@ export default function RcpDeaPrimerosAuxilios() {
         
         <div className="relative z-20 w-full max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-12 mt-12">
           {/* Left Side: Title */}
-          <div className="w-full md:w-1/2 text-left flex flex-col justify-center">
+          <div className="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#e80000] tracking-widest uppercase mb-4 leading-tight" style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.7)' }}>
               CURSO DE RCP, DEA Y<br/>PRIMEROS AUXILIOS
             </h1>
@@ -23,7 +23,7 @@ export default function RcpDeaPrimerosAuxilios() {
           </div>
 
           {/* Right Side: Form in a Card */}
-          <div className="w-full md:w-1/2 flex justify-end">
+          <div className="w-full md:w-1/2 flex justify-center md:justify-end">
             <div className="bg-white rounded-xl shadow-2xl p-8 md:p-10 w-full max-w-lg">
               <h2 className="text-2xl md:text-3xl font-bold text-[#fc0000] mb-6 text-center">
                 ¡Consulte nuestros cursos!

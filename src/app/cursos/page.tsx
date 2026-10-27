@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ContactForm from "@/components/ContactForm";
 
 export default function Cursos() {
   return (
@@ -51,11 +52,11 @@ export default function Cursos() {
                   <path d="M9 10h6" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-8 text-gray-900 underline decoration-2 underline-offset-4">
+              <h3 className="text-2xl font-bold mb-8 text-gray-900 underline decoration-2 underline-offset-4 min-h-[64px] flex items-center justify-center">
                 RCP y DEA
               </h3>
             </div>
-            <Link href="/contacto" className="bg-[#fc0000] text-white px-8 py-2.5 rounded-full font-bold text-sm tracking-wide hover:bg-red-700 transition">
+            <Link href="/cursos/rcp-y-dea" className="bg-[#fc0000] text-white px-8 py-2.5 rounded-full font-bold text-sm tracking-wide hover:bg-red-700 transition">
               Consultar
             </Link>
           </div>
@@ -71,11 +72,11 @@ export default function Cursos() {
                   <path d="M9 13h6" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-8 text-gray-900 underline decoration-2 underline-offset-4">
+              <h3 className="text-2xl font-bold mb-8 text-gray-900 underline decoration-2 underline-offset-4 min-h-[64px] flex items-center justify-center">
                 Primeros Auxilios
               </h3>
             </div>
-            <Link href="/contacto" className="bg-[#fc0000] text-white px-8 py-2.5 rounded-full font-bold text-sm tracking-wide hover:bg-red-700 transition">
+            <Link href="/cursos/primeros-auxilios" className="bg-[#fc0000] text-white px-8 py-2.5 rounded-full font-bold text-sm tracking-wide hover:bg-red-700 transition">
               Consultar
             </Link>
           </div>
@@ -88,11 +89,11 @@ export default function Cursos() {
                   <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-8 text-gray-900 underline decoration-2 underline-offset-4 leading-tight">
+              <h3 className="text-2xl font-bold mb-8 text-gray-900 underline decoration-2 underline-offset-4 leading-tight min-h-[64px] flex items-center justify-center">
                 RCP, DEA y Primeros<br/>Auxilios
               </h3>
             </div>
-            <Link href="/contacto" className="bg-[#fc0000] text-white px-8 py-2.5 rounded-full font-bold text-sm tracking-wide hover:bg-red-700 transition">
+            <Link href="/cursos/rcp-dea-primeros-auxilios" className="bg-[#fc0000] text-white px-8 py-2.5 rounded-full font-bold text-sm tracking-wide hover:bg-red-700 transition">
               Consultar
             </Link>
           </div>
@@ -100,46 +101,8 @@ export default function Cursos() {
       </section>
 
       {/* Contact Form Section */}
-      <section className="py-24 bg-white flex flex-col items-center">
-        <h2 className="text-[34px] md:text-4xl font-bold text-[#fc0000] underline decoration-2 underline-offset-4 mb-16 text-center">
-          Envia tu Consulta
-        </h2>
-        <form className="w-full max-w-4xl px-6 flex flex-col gap-4">
-          <input 
-            type="text" 
-            placeholder="Contacto / Empresa" 
-            className="w-full border border-gray-400 bg-[#fbfbfb] p-4 text-base text-gray-800 placeholder-gray-500 focus:outline-none focus:border-red-500"
-          />
-          <input 
-            type="text" 
-            placeholder="Teléfono" 
-            className="w-full border border-gray-400 bg-[#fbfbfb] p-4 text-base text-gray-800 placeholder-gray-500 focus:outline-none focus:border-red-500"
-          />
-          <input 
-            type="email" 
-            placeholder="E-mail" 
-            className="w-full border border-gray-400 bg-[#fbfbfb] p-4 text-base text-gray-800 placeholder-gray-500 focus:outline-none focus:border-red-500"
-          />
-          <input 
-            type="text" 
-            placeholder="Cantidad de Empleados" 
-            className="w-full border border-gray-400 bg-[#fbfbfb] p-4 text-base text-gray-800 placeholder-gray-500 focus:outline-none focus:border-red-500"
-          />
-          <textarea 
-            placeholder="Mensaje" 
-            rows={5}
-            className="w-full border border-gray-400 bg-[#fbfbfb] p-4 text-base text-gray-800 placeholder-gray-500 focus:outline-none focus:border-red-500 resize-y"
-          ></textarea>
-          
-          <div className="mt-4 text-left">
-            <button 
-              type="button" 
-              className="bg-[#fc0000] text-white px-10 py-3 rounded-full font-bold text-base tracking-wide hover:bg-red-700 transition"
-            >
-              Enviar
-            </button>
-          </div>
-        </form>
+      <section className="py-24 bg-white flex flex-col items-center px-6">
+        <ContactForm />
       </section>
     </>
   );
