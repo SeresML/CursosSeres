@@ -26,7 +26,7 @@ export default function RcpYDea() {
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
             <div className="bg-white rounded-2xl shadow-2xl border-2 border-gray-300 p-8 md:p-10 w-full max-w-lg">
               <h2 className="text-2xl md:text-3xl font-bold text-[#fc0000] mb-6 text-center">
-                ¡Consulte nuestros cursos!
+                Complete el formulario
               </h2>
               <ContactForm hideTitle={true} />
             </div>

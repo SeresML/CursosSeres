@@ -56,8 +56,8 @@ export default function Cursos() {
                 RCP y DEA
               </h3>
             </div>
-            <Link href="/cursos/rcp-y-dea" className="bg-[#fc0000] text-white px-8 py-2.5 rounded-full font-bold text-sm tracking-wide hover:bg-red-700 transition">
-              Consultar
+            <Link href="/cursos/rcp-y-dea" className="bg-[#fc0000] text-white px-8 py-2.5 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition">
+              CONSULTAR
             </Link>
           </div>
           
@@ -76,8 +76,8 @@ export default function Cursos() {
                 Primeros Auxilios
               </h3>
             </div>
-            <Link href="/cursos/primeros-auxilios" className="bg-[#fc0000] text-white px-8 py-2.5 rounded-full font-bold text-sm tracking-wide hover:bg-red-700 transition">
-              Consultar
+            <Link href="/cursos/primeros-auxilios" className="bg-[#fc0000] text-white px-8 py-2.5 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition">
+              CONSULTAR
             </Link>
           </div>
 
@@ -93,8 +93,8 @@ export default function Cursos() {
                 RCP, DEA y Primeros<br/>Auxilios
               </h3>
             </div>
-            <Link href="/cursos/rcp-dea-primeros-auxilios" className="bg-[#fc0000] text-white px-8 py-2.5 rounded-full font-bold text-sm tracking-wide hover:bg-red-700 transition">
-              Consultar
+            <Link href="/cursos/rcp-dea-primeros-auxilios" className="bg-[#fc0000] text-white px-8 py-2.5 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition">
+              CONSULTAR
             </Link>
           </div>
         </div>

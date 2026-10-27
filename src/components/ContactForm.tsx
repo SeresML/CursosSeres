@@ -30,10 +30,10 @@ async function enviarConsulta(_prev: Estado, formData: FormData): Promise<Estado
       headers: { "Content-Type": "application/json", Accept: "application/json" },
       body: JSON.stringify({
         "Contacto / Empresa": contacto,
-        "Teléfono": telefono,
+        "Teléfono / Móvil": telefono,
         email,
         "Cantidad de Empleados": campo("empleados"),
-        "Mensaje": campo("mensaje"),
+        "Consulta / Mensaje": campo("mensaje"),
         "Página": campo("origen"),
         _subject: `Consulta Cursos Seres — ${contacto}`,
         _cc: COPIA,
@@ -57,7 +57,7 @@ interface ContactFormProps {
   hideTitle?: boolean;
 }
 
-export default function ContactForm({ title = "Envia tu Consulta", hideTitle = false }: ContactFormProps = {}) {
+export default function ContactForm({ title = "Complete el formulario", hideTitle = false }: ContactFormProps = {}) {
   const pathname = usePathname();
   const [estado, formAction, enviando] = useActionState(enviarConsulta, null);
 
@@ -82,7 +82,7 @@ export default function ContactForm({ title = "Envia tu Consulta", hideTitle = f
       <input
         type="text"
         name="telefono"
-        placeholder="Teléfono"
+        placeholder="Teléfono / Móvil"
         className={inputClasses}
       />
       <input
@@ -99,7 +99,7 @@ export default function ContactForm({ title = "Envia tu Consulta", hideTitle = f
       />
       <textarea
         name="mensaje"
-        placeholder="Mensaje"
+        placeholder="Consulta / Mensaje"
         rows={4}
         className={`${inputClasses} resize-y`}
       ></textarea>
@@ -108,9 +108,9 @@ export default function ContactForm({ title = "Envia tu Consulta", hideTitle = f
         <button
           type="submit"
           disabled={enviando}
-          className="bg-[#fc0000] text-white px-10 py-3 rounded-full font-bold text-base tracking-wide hover:bg-red-700 transition disabled:opacity-60"
+          className="bg-[#fc0000] text-white px-10 py-3 rounded-full font-bold text-base tracking-wider uppercase hover:bg-red-700 transition disabled:opacity-60"
         >
-          {enviando ? "Enviando..." : "Enviar"}
+          {enviando ? "ENVIANDO..." : "ENVIAR"}
         </button>
         {estado && (
           <p className={`mt-4 text-base font-medium ${estado.ok ? "text-green-700" : "text-[#fc0000]"}`}>
