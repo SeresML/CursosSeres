@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import ContactForm from "@/components/ContactForm";
 
 export default function RcpYDea() {
@@ -34,64 +33,53 @@ export default function RcpYDea() {
         </div>
       </section>
 
-      {/* Content: Zigzag Layout */}
-      <section className="py-12 md:py-24 bg-white overflow-hidden">
-        <div className="max-w-6xl mx-auto px-6 flex flex-col gap-16 md:gap-24">
+      {/* Content: Cards Layout */}
+      <section className="py-10 md:py-20 bg-gray-50 overflow-hidden">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 flex flex-col gap-8 md:gap-10">
           
-          {/* Row 1: Image Left, Text Right */}
-          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-20">
-            {/* Image Illustration */}
-            <div className="w-full md:w-1/2 flex justify-center">
-               <div className="relative w-full max-w-sm h-56 md:h-80 flex items-center justify-center">
-                 <Image src="/ilus-cpr.png" alt="Ilustración RCP Compresiones" fill className="object-contain" />
-               </div>
-            </div>
-            {/* Text */}
-            <div className="w-full md:w-1/2 text-center md:text-left">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#fc0000] mb-5 whitespace-nowrap">Preparación que Salva Vidas</h2>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Capacitamos a su personal en técnicas de reanimación cardiopulmonar para actuar de inmediato frente a un paro cardiorrespiratorio, manteniendo las funciones vitales hasta la llegada de asistencia médica avanzada y asegurando que su empresa cumpla con la <span className="text-[#fc0000] underline cursor-pointer">Resolución 905/15</span>.
-              </p>
-              <a
-                href="https://wa.me/5491130170130?utm_source=chatgpt.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-6 inline-block bg-[#fc0000] text-white px-8 py-3 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition"
-              >
-                CONTACTAR
-              </a>
-            </div>
+          {/* Card 1 */}
+          <div className="bg-white rounded-2xl shadow-xl border sm:border-2 border-gray-300 p-6 sm:p-8 md:p-10 text-center flex flex-col items-center">
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#fc0000] mb-4">
+              Preparación que Salva Vidas
+            </h2>
+            <p className="text-base sm:text-lg text-gray-700 leading-relaxed max-w-2xl">
+              Capacitamos a su personal en técnicas de reanimación cardiopulmonar para actuar de inmediato frente a un paro cardiorrespiratorio, manteniendo las funciones vitales hasta la llegada de asistencia médica avanzada y asegurando que su empresa cumpla con la <span className="text-[#fc0000] underline cursor-pointer">Resolución 905/15</span>.
+            </p>
+            <a
+              href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-block bg-[#fc0000] text-white px-8 py-3 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition shadow-md"
+            >
+              CONTACTAR
+            </a>
           </div>
 
-          {/* Row 2: Text Left, Image Right */}
-          <div className="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-20">
-            {/* Image Illustration */}
-            <div className="w-full md:w-1/2 flex justify-center">
-               <div className="relative w-full max-w-sm h-56 md:h-80 flex items-center justify-center">
-                 <Image src="/ilus-airway.png" alt="Ilustración RCP Vía Aérea" fill className="object-contain" />
-               </div>
-            </div>
-            {/* Text */}
-            <div className="w-full md:w-1/2 text-center md:text-right">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#fc0000] mb-5 whitespace-nowrap">Entrenamiento con Simuladores</h2>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Los participantes aprenderán de forma práctica a identificar un paro cardíaco, aplicar compresiones torácicas efectivas, operar un Desfibrilador Externo Automático (DEA) con seguridad y ejecutar la maniobra de Heimlich ante obstrucciones de la vía aérea.
-              </p>
-              <a
-                href="https://wa.me/5491130170130?utm_source=chatgpt.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-6 inline-block bg-[#fc0000] text-white px-8 py-3 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition"
-              >
-                CONTACTAR
-              </a>
-            </div>
+          {/* Card 2 */}
+          <div className="bg-white rounded-2xl shadow-xl border sm:border-2 border-gray-300 p-6 sm:p-8 md:p-10 text-center flex flex-col items-center">
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#fc0000] mb-4">
+              Entrenamiento con Simuladores
+            </h2>
+            <p className="text-base sm:text-lg text-gray-700 leading-relaxed max-w-2xl">
+              Los participantes aprenderán de forma práctica a identificar un paro cardíaco, aplicar compresiones torácicas efectivas, operar un Desfibrilador Externo Automático (DEA) con seguridad y ejecutar la maniobra de Heimlich ante obstrucciones de la vía aérea.
+            </p>
+            <a
+              href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-block bg-[#fc0000] text-white px-8 py-3 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition shadow-md"
+            >
+              CONTACTAR
+            </a>
           </div>
 
           {/* Contact Form Bottom */}
-          <div id="formulario" className="mt-10 md:mt-20 scroll-mt-10">
+          <div id="formulario" className="mt-4 md:mt-8 scroll-mt-10">
             <ContactForm />
           </div>
+
+        </div>
+      </section>
 
         </div>
       </section>
