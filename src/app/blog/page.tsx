@@ -5,7 +5,7 @@ export default function Blog() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full h-[26vh] min-h-[200px] sm:h-[32vh] sm:min-h-[240px] md:h-[65vh] md:min-h-[450px] flex flex-col justify-start md:justify-center items-center overflow-hidden pt-[68px] pb-3 sm:pt-20 md:pt-28 md:pb-16">
+      <section className="relative w-full h-[21vh] min-h-[165px] sm:h-[28vh] sm:min-h-[210px] md:h-[65vh] md:min-h-[480px] flex flex-col justify-center items-center overflow-hidden pt-12 sm:pt-16 md:pt-28 pb-2 sm:pb-4 md:pb-16">
         {/* Background Image */}
         <div className="absolute inset-0 z-0 bg-black">
           {/* Placeholder image for the blog hero */}
@@ -13,9 +13,9 @@ export default function Blog() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-20 flex flex-col items-center text-center px-3 sm:px-4 w-full -mt-1 sm:-mt-4 md:mt-0">
+        <div className="relative z-20 flex flex-col items-center text-center px-3 sm:px-4 w-full mt-1 sm:mt-2 md:mt-0">
           <h1 
-            className="text-2xl sm:text-5xl md:text-6xl lg:text-[72px] font-bold text-[#e60000] tracking-normal mb-1.5 md:mb-4 leading-none"
+            className="text-2xl sm:text-5xl md:text-6xl lg:text-[72px] font-bold text-[#e60000] tracking-normal mb-1 md:mb-4 leading-none"
             style={{ textShadow: '1px 1px 0px rgba(255,255,255,0.9), -0.5px -0.5px 0px rgba(255,255,255,0.8)' }}
           >
             NUESTRO BLOG
@@ -24,14 +24,14 @@ export default function Blog() {
             className="text-sm sm:text-2xl md:text-4xl lg:text-[34px] text-white tracking-wider font-medium"
             style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8), 0px 2px 8px rgba(0,0,0,0.5)' }}
           >
-            NOVEDADES Y CONSEJOS
+            Novedades y consejos
           </h2>
           
           <a 
             href="https://wa.me/5491130170130?utm_source=chatgpt.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-3 sm:mt-5 md:mt-12 bg-[#fc0000] text-white px-6 py-2 sm:px-7 sm:py-2.5 md:px-12 md:py-4 rounded-full font-bold tracking-[0.2em] text-xs sm:text-sm md:text-[17px] hover:bg-red-700 transition"
+            className="mt-2.5 sm:mt-4 md:mt-12 bg-[#fc0000] text-white px-6 py-1.5 sm:px-7 sm:py-2.5 md:px-12 md:py-4 rounded-full font-bold tracking-[0.2em] text-xs sm:text-sm md:text-[17px] hover:bg-red-700 transition"
           >
             CONTACTAR
           </a>
