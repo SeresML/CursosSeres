@@ -50,8 +50,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="flex flex-col items-center gap-8">
               <h3 className="text-2xl font-bold text-[#fc0000]">Contacto</h3>
               <div className="flex flex-col gap-5 text-base font-medium text-gray-800">
-                <p>servicios@seressalud.com.ar</p>
-                <p>11-3017-0130</p>
+                <a href="mailto:servicios@seressalud.com.ar" className="hover:text-[#fc0000] transition-colors">servicios@seressalud.com.ar</a>
+                <a href="https://wa.me/5491130170130?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#fc0000] transition-colors">11-3017-0130</a>
                 <p>4222-1597</p>
               </div>
             </div>
