@@ -15,7 +15,7 @@ export default function Home() {
         {/* Hero Content */}
         <div className="relative z-20 flex flex-col items-center text-center px-3 sm:px-4 w-full mt-1 sm:mt-2 md:mt-0">
           <h1 
-            className="text-2xl sm:text-5xl md:text-6xl lg:text-[72px] font-bold text-[#e60000] tracking-normal mb-1 md:mb-4 leading-none"
+            className="text-[26px] sm:text-5xl md:text-6xl lg:text-[72px] font-bold text-[#e60000] tracking-normal mb-1 md:mb-4 leading-none"
             style={{ 
               textShadow: '1px 1px 0px rgba(255,255,255,0.9), -0.5px -0.5px 0px rgba(255,255,255,0.8)'
             }}
