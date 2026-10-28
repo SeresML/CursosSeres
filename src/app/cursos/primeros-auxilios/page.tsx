@@ -84,9 +84,6 @@ export default function PrimerosAuxilios() {
 
         </div>
       </section>
-
-        </div>
-      </section>
     </>
   );
 }

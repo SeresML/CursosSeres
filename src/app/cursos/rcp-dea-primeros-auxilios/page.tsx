@@ -81,9 +81,6 @@ export default function RcpDeaPrimerosAuxilios() {
 
         </div>
       </section>
-
-        </div>
-      </section>
     </>
   );
 }

@@ -80,9 +80,6 @@ export default function RcpYDea() {
 
         </div>
       </section>
-
-        </div>
-      </section>
     </>
   );
 }
