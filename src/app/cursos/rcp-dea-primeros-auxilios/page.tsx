@@ -6,15 +6,15 @@ export default function RcpDeaPrimerosAuxilios() {
   return (
     <>
       {/* Hero Section Split with Full-Width Background */}
-      <section className="relative w-full min-h-[100dvh] flex items-center justify-center pt-20 pb-6 md:pt-24 md:pb-8">
+      <section className="relative w-full min-h-[100dvh] flex items-center justify-center pt-16 pb-6 md:pt-20 md:pb-8">
         <div className="absolute inset-0 z-0 bg-black">
           <div className="w-full h-full bg-[url('/bg.png')] bg-cover bg-center opacity-70" />
         </div>
         
-        <div className="relative z-20 w-full max-w-7xl mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-12 mt-1 md:mt-2">
+        <div className="relative z-20 w-full max-w-7xl mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-3 md:gap-12">
           {/* Left Side: Title */}
-          <div className="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center">
-            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-[38px] xl:text-[42px] font-bold text-[#fc0000] tracking-wide uppercase mb-1 md:mb-3 leading-tight" style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.85), 0px 1px 3px rgba(0,0,0,0.9)' }}>
+          <div className="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center -mt-1 md:-mt-16 lg:-mt-20">
+            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-[38px] xl:text-[42px] font-bold text-[#e60000] tracking-wide uppercase mb-1 md:mb-3 leading-tight" style={{ textShadow: '-0.5px -0.5px 0px rgba(255,255,255,0.85), 2px 2px 0px rgba(255,255,255,0.9)' }}>
               <span className="block whitespace-nowrap">CURSO DE RCP, DEA Y</span>
               <span className="block whitespace-nowrap">PRIMEROS AUXILIOS</span>
             </h1>

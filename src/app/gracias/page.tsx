@@ -4,15 +4,15 @@ export default function Gracias() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full h-[28vh] min-h-[210px] md:h-[32vh] md:min-h-[245px] flex items-center justify-center overflow-hidden pt-16 md:pt-20">
+      <section className="relative w-full h-[28vh] min-h-[210px] md:h-[32vh] md:min-h-[245px] flex items-center justify-center overflow-hidden pt-12 md:pt-14">
         <div className="absolute inset-0 z-0 bg-black">
           <div className="w-full h-full bg-[url('/bg.jpg')] bg-cover bg-center opacity-70" />
         </div>
 
-        <div className="relative z-20 text-center px-4 mt-2 md:mt-4">
+        <div className="relative z-20 text-center px-4">
           <h1
-            className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#fc0000] tracking-widest uppercase"
-            style={{ textShadow: "2px 2px 6px rgba(0,0,0,0.85), 0px 1px 3px rgba(0,0,0,0.9)" }}
+            className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#e60000] tracking-widest uppercase"
+            style={{ textShadow: "-0.5px -0.5px 0px rgba(255,255,255,0.85), 2px 2px 0px rgba(255,255,255,0.9)" }}
           >
             ¡MUCHAS GRACIAS!
           </h1>

@@ -5,18 +5,18 @@ export default function Cursos() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full h-[42vh] min-h-[270px] md:h-[65vh] md:min-h-[450px] flex items-center justify-center overflow-hidden pt-10 md:pt-0">
+      <section className="relative w-full h-[42vh] min-h-[270px] md:h-[65vh] md:min-h-[450px] flex items-center justify-center overflow-hidden pt-4 pb-6 md:pt-0 md:pb-12">
         {/* Background Image */}
         <div className="absolute inset-0 z-0 bg-black">
           <div className="w-full h-full bg-[url('/bg-cursos.png')] bg-cover bg-center opacity-70" />
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-20 flex flex-col items-center text-center px-4 w-full mt-2 md:mt-4">
+        <div className="relative z-20 flex flex-col items-center text-center px-4 w-full -mt-2 sm:-mt-4 md:-mt-8">
           <h1 
-            className="text-3xl sm:text-5xl md:text-6xl lg:text-[72px] font-bold text-[#fc0000] tracking-normal mb-2 md:mb-4 leading-none"
+            className="text-3xl sm:text-5xl md:text-6xl lg:text-[72px] font-bold text-[#e60000] tracking-normal mb-2 md:mb-4 leading-none"
             style={{ 
-              textShadow: '2px 2px 6px rgba(0,0,0,0.85), 0px 1px 3px rgba(0,0,0,0.9)'
+              textShadow: '-0.5px -0.5px 0px rgba(255,255,255,0.85), 2px 2px 0px rgba(255,255,255,0.9)'
             }}
           >
             NUESTROS CURSOS
