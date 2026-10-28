@@ -13,8 +13,31 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.capacitartesalud.com.ar"),
   title: "Cursos de RCP y DEA",
   description: "Capacitación profesional en Primeros Auxilios",
+  openGraph: {
+    title: "Cursos de RCP y DEA",
+    description: "Capacitación profesional en Primeros Auxilios",
+    url: "https://www.capacitartesalud.com.ar",
+    siteName: "Seres Salud Cursos",
+    images: [
+      {
+        url: "/og-logo.png",
+        width: 512,
+        height: 512,
+        alt: "Seres Salud Cursos",
+      },
+    ],
+    locale: "es_AR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Cursos de RCP y DEA",
+    description: "Capacitación profesional en Primeros Auxilios",
+    images: ["/og-logo.png"],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
