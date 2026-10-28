@@ -1,7 +1,7 @@
 "use client";
 
-import { useActionState, useEffect } from "react";
-import { usePathname, useRouter } from "next/navigation";
+import { FormEvent, useState } from "react";
+import { usePathname } from "next/navigation";
 import { sendGTMEvent } from "@next/third-parties/google";
 
 // FormSubmit manda la consulta por mail sin servidor propio. La primera vez
@@ -11,21 +11,35 @@ import { sendGTMEvent } from "@next/third-parties/google";
 const DESTINO = "gestionimpulsodigital@gmail.com";
 const COPIA = "servicios@seressalud.com.ar";
 
-type Estado = { ok: boolean; mensaje: string } | null;
+interface ContactFormProps {
+  title?: string;
+  hideTitle?: boolean;
+}
 
-async function enviarConsulta(_prev: Estado, formData: FormData): Promise<Estado> {
-  const campo = (nombre: string) => String(formData.get(nombre) ?? "").trim();
-  const contacto = campo("contacto");
-  const telefono = campo("telefono");
-  const email = campo("email");
+export default function ContactForm({ title = "Complete el formulario", hideTitle = false }: ContactFormProps = {}) {
+  const pathname = usePathname();
+  const [enviando, setEnviando] = useState(false);
+  const [errorMensaje, setErrorMensaje] = useState<string | null>(null);
 
-  if (!contacto || (!telefono && !email)) {
-    return { ok: false, mensaje: "Completá tu nombre o empresa y un teléfono o e-mail para poder contactarte." };
-  }
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const campo = (nombre: string) => String(formData.get(nombre) ?? "").trim();
+    const contacto = campo("contacto");
+    const telefono = campo("telefono");
+    const email = campo("email");
 
-  try {
-    const respuesta = await fetch(`https://formsubmit.co/ajax/${DESTINO}`, {
+    if (!contacto || (!telefono && !email)) {
+      setErrorMensaje("Completá tu nombre o empresa y un teléfono o e-mail para poder contactarte.");
+      return;
+    }
+
+    setErrorMensaje(null);
+    setEnviando(true);
+
+    const peticion = fetch(`https://formsubmit.co/ajax/${DESTINO}`, {
       method: "POST",
+      keepalive: true,
       referrerPolicy: "origin",
       headers: { "Content-Type": "application/json", Accept: "application/json" },
       body: JSON.stringify({
@@ -41,40 +55,31 @@ async function enviarConsulta(_prev: Estado, formData: FormData): Promise<Estado
         _captcha: "false",
         _honey: campo("web"),
       }),
+    }).catch((error) => {
+      console.error("enviarConsulta: falló el envío", error);
     });
-    const datos = await respuesta.json();
-    if (!respuesta.ok || String(datos.success) !== "true") throw new Error(datos.message);
-  } catch (error) {
-    console.error("enviarConsulta: falló el envío", error);
-    return { ok: false, mensaje: `No pudimos enviar tu consulta. Probá de nuevo o escribinos a ${COPIA}.` };
-  }
 
-  return { ok: true, mensaje: "¡Gracias! Recibimos tu consulta y te vamos a contactar a la brevedad." };
-}
+    // Esperamos hasta 1.5s para dar tiempo al envío sin bloquear al usuario si el servidor SMTP demora,
+    // mientras keepalive: true garantiza que el navegador complete la petición en segundo plano.
+    await Promise.race([
+      peticion,
+      new Promise((resolve) => setTimeout(resolve, 1500)),
+    ]);
 
-interface ContactFormProps {
-  title?: string;
-  hideTitle?: boolean;
-}
-
-export default function ContactForm({ title = "Complete el formulario", hideTitle = false }: ContactFormProps = {}) {
-  const pathname = usePathname();
-  const router = useRouter();
-  const [estado, formAction, enviando] = useActionState(enviarConsulta, null);
-
-  // Evento para Google Tag Manager (conversión de Google Ads) y redirección a /gracias
-  useEffect(() => {
-    if (estado?.ok) {
+    try {
       sendGTMEvent({ event: "formulario_enviado", pagina: pathname });
-      router.push("/gracias");
+    } catch {
+      // Ignorar si GTM no está cargado
     }
-  }, [estado, pathname, router]);
+
+    window.location.href = "/gracias";
+  }
 
   const inputClasses =
     "w-full border-2 border-gray-500 rounded-xl bg-[#fbfbfb] px-3.5 py-1.5 md:py-2 text-sm md:text-base font-medium text-gray-900 placeholder-gray-700 focus:outline-none focus:border-[#fc0000] transition-colors";
 
   const formElement = (
-    <form action={formAction} className="w-full flex flex-col gap-2">
+    <form onSubmit={handleSubmit} className="w-full flex flex-col gap-2">
       <input type="hidden" name="origen" value={pathname} />
       <input type="text" name="web" tabIndex={-1} autoComplete="off" aria-hidden="true" className="hidden" />
       <input
@@ -116,9 +121,9 @@ export default function ContactForm({ title = "Complete el formulario", hideTitl
         >
           {enviando ? "ENVIANDO..." : "ENVIAR"}
         </button>
-        {estado && (
-          <p className={`mt-2 text-sm font-medium ${estado.ok ? "text-green-700" : "text-[#fc0000]"}`}>
-            {estado.mensaje}
+        {errorMensaje && (
+          <p className="mt-2 text-sm font-medium text-[#fc0000]">
+            {errorMensaje}
           </p>
         )}
       </div>
