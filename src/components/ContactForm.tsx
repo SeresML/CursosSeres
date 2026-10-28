@@ -1,7 +1,7 @@
 "use client";
 
 import { useActionState, useEffect } from "react";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { sendGTMEvent } from "@next/third-parties/google";
 
 // FormSubmit manda la consulta por mail sin servidor propio. La primera vez
@@ -59,12 +59,16 @@ interface ContactFormProps {
 
 export default function ContactForm({ title = "Complete el formulario", hideTitle = false }: ContactFormProps = {}) {
   const pathname = usePathname();
+  const router = useRouter();
   const [estado, formAction, enviando] = useActionState(enviarConsulta, null);
 
-  // Evento para Google Tag Manager (conversión de Google Ads)
+  // Evento para Google Tag Manager (conversión de Google Ads) y redirección a /gracias
   useEffect(() => {
-    if (estado?.ok) sendGTMEvent({ event: "formulario_enviado", pagina: pathname });
-  }, [estado, pathname]);
+    if (estado?.ok) {
+      sendGTMEvent({ event: "formulario_enviado", pagina: pathname });
+      router.push("/gracias");
+    }
+  }, [estado, pathname, router]);
 
   const inputClasses =
     "w-full border-2 border-gray-500 rounded-xl bg-[#fbfbfb] px-3.5 py-1.5 md:py-2 text-sm md:text-base font-medium text-gray-900 placeholder-gray-700 focus:outline-none focus:border-[#fc0000] transition-colors";
