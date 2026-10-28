@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full h-[44vh] min-h-[290px] md:h-[75vh] md:min-h-[500px] flex items-center justify-center overflow-hidden pt-4 pb-6 md:pt-0 md:pb-12">
+      <section className="relative w-full h-[44vh] min-h-[290px] md:h-[75vh] md:min-h-[500px] flex flex-col justify-start md:justify-center items-center overflow-hidden pt-[76px] sm:pt-20 md:pt-0 pb-6 md:pb-12">
         {/* Background Image */}
         <div className="absolute inset-0 z-0 bg-black">
           <div className="w-full h-full bg-[url('/bg.png')] bg-cover bg-center opacity-70" />

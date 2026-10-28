@@ -6,12 +6,12 @@ export default function RcpDeaPrimerosAuxilios() {
   return (
     <>
       {/* Hero Section Split with Full-Width Background */}
-      <section className="relative w-full min-h-[100dvh] flex items-center justify-center pt-14 pb-3 md:pt-20 md:pb-8">
+      <section className="relative w-full min-h-[100dvh] flex flex-col justify-start md:justify-center items-center pt-[70px] sm:pt-[76px] md:pt-20 pb-4 md:pb-8">
         <div className="absolute inset-0 z-0 bg-black">
           <div className="w-full h-full bg-[url('/bg.png')] bg-cover bg-center opacity-70" />
         </div>
         
-        <div className="relative z-20 w-full max-w-7xl mx-auto px-3 sm:px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-2.5 md:gap-12">
+        <div className="relative z-20 w-full max-w-7xl mx-auto px-3 sm:px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-2 md:gap-12">
           {/* Left Side: Title */}
           <div className="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center -mt-1 md:-mt-16 lg:-mt-20">
             <h1 className="text-lg sm:text-2xl md:text-3xl lg:text-[38px] xl:text-[42px] font-bold text-[#e60000] tracking-wide uppercase mb-1 md:mb-3 leading-tight" style={{ textShadow: '1px 1px 0px rgba(255,255,255,0.9), -0.5px -0.5px 0px rgba(255,255,255,0.8)' }}>
