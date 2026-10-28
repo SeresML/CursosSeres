@@ -17,8 +17,8 @@ export default function RcpYDea() {
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[44px] font-bold text-[#e80000] tracking-wide uppercase mb-1 md:mb-3 leading-tight whitespace-nowrap" style={{ textShadow: '2px 2px 6px rgba(255,255,255,0.85), 0px 0px 12px rgba(255,255,255,0.6)' }}>
               CURSO DE RCP Y DEA
             </h1>
-            <p className="text-base sm:text-lg md:text-2xl text-white font-medium" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
-              Capacitación práctica In-Company con certificación oficial
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white font-medium whitespace-nowrap" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
+              Capacitación práctica para empresas
             </p>
           </div>
 
@@ -48,7 +48,7 @@ export default function RcpYDea() {
             </div>
             {/* Text */}
             <div className="w-full md:w-1/2 text-center md:text-left">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Preparación que Salva Vidas</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-[#fc0000] mb-5 whitespace-nowrap">Preparación que Salva Vidas</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
                 Capacitamos a su personal en técnicas de reanimación cardiopulmonar para actuar de inmediato frente a un paro cardiorrespiratorio, manteniendo las funciones vitales hasta la llegada de asistencia médica avanzada y asegurando que su empresa cumpla con la <span className="text-[#fc0000] underline cursor-pointer">Resolución 905/15</span>.
               </p>
@@ -71,7 +71,7 @@ export default function RcpYDea() {
             </div>
             {/* Text */}
             <div className="w-full md:w-1/2 text-center md:text-right">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Entrenamiento con Simuladores y DEA</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-[#fc0000] mb-5 whitespace-nowrap">Entrenamiento con Simuladores</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
                 Los participantes aprenderán de forma práctica a identificar un paro cardíaco, aplicar compresiones torácicas efectivas, operar un Desfibrilador Externo Automático (DEA) con seguridad y ejecutar la maniobra de Heimlich ante obstrucciones de la vía aérea.
               </p>

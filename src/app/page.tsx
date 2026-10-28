@@ -23,12 +23,12 @@ export default function Home() {
             CURSOS DE RCP Y DEA
           </h1>
           <h2 
-            className="text-base sm:text-2xl md:text-4xl lg:text-[34px] text-white tracking-wider font-medium"
+            className="text-sm sm:text-lg md:text-2xl text-white tracking-wider font-medium whitespace-nowrap"
             style={{ 
               textShadow: '2px 2px 4px rgba(0,0,0,0.8), 0px 2px 8px rgba(0,0,0,0.5)' 
             }}
           >
-            CAPACITACIÓN IN-COMPANY PARA EMPRESAS
+            CAPACITACIÓN PRÁCTICA PARA EMPRESAS
           </h2>
           
           <Link 

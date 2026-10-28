@@ -22,12 +22,12 @@ export default function Cursos() {
             NUESTROS CURSOS
           </h1>
           <h2 
-            className="text-base sm:text-2xl md:text-4xl lg:text-[34px] text-white tracking-wider font-medium"
+            className="text-sm sm:text-lg md:text-2xl text-white tracking-wider font-medium whitespace-nowrap"
             style={{ 
               textShadow: '2px 2px 4px rgba(0,0,0,0.8), 0px 2px 8px rgba(0,0,0,0.5)' 
             }}
           >
-            FORMACIÓN PRÁCTICA Y CERTIFICACIÓN PARA SU EQUIPO
+            FORMACIÓN PRÁCTICA PARA SU EQUIPO
           </h2>
           
           <Link 

@@ -18,8 +18,8 @@ export default function RcpDeaPrimerosAuxilios() {
               <span className="block whitespace-nowrap">CURSO DE RCP, DEA Y</span>
               <span className="block whitespace-nowrap">PRIMEROS AUXILIOS</span>
             </h1>
-            <p className="text-base sm:text-lg md:text-2xl text-white font-medium" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
-              Programa integral de prevención y respuesta para empresas
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white font-medium whitespace-nowrap" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
+              Prevención y respuesta para empresas
             </p>
           </div>
 
@@ -49,7 +49,7 @@ export default function RcpDeaPrimerosAuxilios() {
             </div>
             {/* Text */}
             <div className="w-full md:w-1/2 text-center md:text-left">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Cobertura Total ante Emergencias</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-[#fc0000] mb-5 whitespace-nowrap">Cobertura ante Emergencias</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
                 Integramos en una sola jornada las maniobras de reanimación cardiopulmonar (RCP), el manejo del desfibrilador (DEA) y la asistencia inicial en primeros auxilios, brindando una preparación completa para proteger a su personal y cumplir con la <span className="text-[#fc0000] underline cursor-pointer">Resolución 905/15</span>.
               </p>
@@ -72,7 +72,7 @@ export default function RcpDeaPrimerosAuxilios() {
             </div>
             {/* Text */}
             <div className="w-full md:w-1/2 text-center md:text-right">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Simulacros y Práctica Intensiva</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-[#fc0000] mb-5 whitespace-nowrap">Simulacros y Práctica Activa</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
                 Realizamos ejercicios prácticos con muñecos simuladores y equipamiento DEA de entrenamiento, combinados con técnicas de atención ante accidentes frecuentes para que cada colaborador actúe con seguridad y rapidez.
               </p>

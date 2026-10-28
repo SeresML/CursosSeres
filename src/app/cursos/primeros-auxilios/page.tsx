@@ -18,8 +18,8 @@ export default function PrimerosAuxilios() {
               <span className="block whitespace-nowrap">CURSO DE</span>
               <span className="block whitespace-nowrap">PRIMEROS AUXILIOS</span>
             </h1>
-            <p className="text-base sm:text-lg md:text-2xl text-white font-medium" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
-              Respuesta rápida y eficaz ante emergencias en el ámbito laboral
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white font-medium whitespace-nowrap" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
+              Respuesta rápida ante emergencias laborales
             </p>
           </div>
 
@@ -49,7 +49,7 @@ export default function PrimerosAuxilios() {
             </div>
             {/* Text */}
             <div className="w-full md:w-1/2 text-center md:text-left">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Asistencia Inmediata ante Accidentes</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-[#fc0000] mb-5 whitespace-nowrap">Asistencia ante Accidentes</h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
                 Preparamos a los colaboradores de su empresa para actuar con solvencia ante incidentes o emergencias repentinas, aliviando el dolor del afectado, previniendo complicaciones mayores y cumpliendo con la <span className="text-[#fc0000] underline cursor-pointer">Resolución 905/15</span>.
               </p>
@@ -75,7 +75,7 @@ export default function PrimerosAuxilios() {
             </div>
             {/* Text */}
             <div className="w-full md:w-1/2 text-center md:text-right">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Manejo Práctico de Lesiones y Emergencias</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-[#fc0000] mb-5 whitespace-nowrap">Manejo Práctico de Emergencias</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
                 Entrenamiento aplicado para evaluar escenarios críticos, controlar hemorragias, tratar quemaduras, inmovilizar traumatismos y asistir convulsiones o desmayos con herramientas claras para personal no sanitario.
               </p>
