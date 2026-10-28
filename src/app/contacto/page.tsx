@@ -31,7 +31,7 @@ export default function Contacto() {
           </div>
 
           {/* Right Column: Contact Info */}
-          <div className="flex flex-col items-center md:items-start">
+          <div className="flex flex-col items-center justify-center w-full">
             <div className="flex flex-col items-start">
               <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-8 whitespace-nowrap">
                 Habla con Nosotros
