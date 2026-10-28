@@ -16,7 +16,7 @@ interface ContactFormProps {
   hideTitle?: boolean;
 }
 
-export default function ContactForm({ title = "Complete el formulario", hideTitle = false }: ContactFormProps = {}) {
+export default function ContactForm({ title = "Complete el Formulario", hideTitle = false }: ContactFormProps = {}) {
   const pathname = usePathname();
   const [enviando, setEnviando] = useState(false);
   const [errorMensaje, setErrorMensaje] = useState<string | null>(null);

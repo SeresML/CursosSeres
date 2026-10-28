@@ -24,7 +24,7 @@ export default function Blog() {
             className="text-sm sm:text-2xl md:text-4xl lg:text-[34px] text-white tracking-wider font-medium"
             style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8), 0px 2px 8px rgba(0,0,0,0.5)' }}
           >
-            Novedades y consejos
+            Novedades y Consejos
           </h2>
           
           <a 

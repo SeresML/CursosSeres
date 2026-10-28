@@ -27,7 +27,7 @@ export default function Cursos() {
               textShadow: '2px 2px 4px rgba(0,0,0,0.8), 0px 2px 8px rgba(0,0,0,0.5)' 
             }}
           >
-            Formación práctica para su equipo
+            Formación Práctica para su Equipo
           </h2>
           
           <a 

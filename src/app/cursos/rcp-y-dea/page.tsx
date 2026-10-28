@@ -17,7 +17,7 @@ export default function RcpYDea() {
               CURSO DE RCP Y DEA
             </h1>
             <p className="text-xs sm:text-base md:text-lg lg:text-xl text-white font-medium whitespace-nowrap" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
-              Capacitación práctica para empresas
+              Capacitación Práctica para Empresas
             </p>
           </div>
 
@@ -25,7 +25,7 @@ export default function RcpYDea() {
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
             <div className="bg-white rounded-2xl shadow-2xl border sm:border-2 border-gray-300 p-3 sm:p-5 md:p-6 w-full max-w-lg">
               <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-[#fc0000] mb-2 md:mb-3 text-center">
-                Complete el formulario
+                Complete el Formulario
               </h2>
               <ContactForm hideTitle={true} />
             </div>

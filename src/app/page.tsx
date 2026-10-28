@@ -28,7 +28,7 @@ export default function Home() {
               textShadow: '2px 2px 4px rgba(0,0,0,0.8), 0px 2px 8px rgba(0,0,0,0.5)' 
             }}
           >
-            Capacitación práctica para empresas
+            Capacitación Práctica para Empresas
           </h2>
           
           <a 
