@@ -52,7 +52,7 @@ export default function Cursos() {
                   <path d="M9 10h6" />
                 </svg>
               </div>
-              <h3 className="text-xs sm:text-lg md:text-2xl font-bold mb-3 md:mb-8 text-gray-900 underline decoration-2 underline-offset-4 min-h-[36px] md:min-h-[64px] flex items-center justify-center">
+              <h3 className="text-xs sm:text-lg md:text-2xl font-bold mb-3 md:mb-8 text-gray-900 min-h-[36px] md:min-h-[64px] flex items-center justify-center">
                 RCP y DEA
               </h3>
             </div>
@@ -72,7 +72,7 @@ export default function Cursos() {
                   <path d="M9 13h6" />
                 </svg>
               </div>
-              <h3 className="text-xs sm:text-lg md:text-2xl font-bold mb-3 md:mb-8 text-gray-900 underline decoration-2 underline-offset-4 min-h-[36px] md:min-h-[64px] flex items-center justify-center">
+              <h3 className="text-xs sm:text-lg md:text-2xl font-bold mb-3 md:mb-8 text-gray-900 min-h-[36px] md:min-h-[64px] flex items-center justify-center">
                 Primeros Auxilios
               </h3>
             </div>
@@ -89,7 +89,7 @@ export default function Cursos() {
                   <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                 </svg>
               </div>
-              <h3 className="text-xs sm:text-lg md:text-2xl font-bold mb-3 md:mb-8 text-gray-900 underline decoration-2 underline-offset-4 leading-tight min-h-[36px] md:min-h-[64px] flex items-center justify-center">
+              <h3 className="text-xs sm:text-lg md:text-2xl font-bold mb-3 md:mb-8 text-gray-900 leading-tight min-h-[36px] md:min-h-[64px] flex items-center justify-center">
                 RCP, DEA y Primeros<br/>Auxilios
               </h3>
             </div>
