@@ -14,9 +14,9 @@ export default function Cursos() {
         {/* Hero Content */}
         <div className="relative z-20 flex flex-col items-center text-center px-4 w-full mt-2 md:mt-4">
           <h1 
-            className="text-3xl sm:text-5xl md:text-6xl lg:text-[72px] font-bold text-[#e80000] tracking-normal mb-2 md:mb-4 leading-none"
+            className="text-3xl sm:text-5xl md:text-6xl lg:text-[72px] font-bold text-[#fc0000] tracking-normal mb-2 md:mb-4 leading-none"
             style={{ 
-              textShadow: '2px 2px 6px rgba(255,255,255,0.85), 0px 0px 12px rgba(255,255,255,0.6)'
+              textShadow: '2px 2px 6px rgba(0,0,0,0.85), 0px 1px 3px rgba(0,0,0,0.9)'
             }}
           >
             NUESTROS CURSOS

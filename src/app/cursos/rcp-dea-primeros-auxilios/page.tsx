@@ -14,7 +14,7 @@ export default function RcpDeaPrimerosAuxilios() {
         <div className="relative z-20 w-full max-w-7xl mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-12 mt-1 md:mt-2">
           {/* Left Side: Title */}
           <div className="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center">
-            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-[38px] xl:text-[42px] font-bold text-[#e80000] tracking-wide uppercase mb-1 md:mb-3 leading-tight" style={{ textShadow: '2px 2px 6px rgba(255,255,255,0.85), 0px 0px 12px rgba(255,255,255,0.6)' }}>
+            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-[38px] xl:text-[42px] font-bold text-[#fc0000] tracking-wide uppercase mb-1 md:mb-3 leading-tight" style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.85), 0px 1px 3px rgba(0,0,0,0.9)' }}>
               <span className="block whitespace-nowrap">CURSO DE RCP, DEA Y</span>
               <span className="block whitespace-nowrap">PRIMEROS AUXILIOS</span>
             </h1>

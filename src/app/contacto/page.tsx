@@ -7,14 +7,14 @@ export default function Contacto() {
       {/* Hero Section */}
       <section className="relative w-full h-[18vh] min-h-[135px] md:h-[22vh] md:min-h-[165px] flex items-center justify-center overflow-hidden pt-12 md:pt-10">
         {/* Background Image - placeholder using the home bg until a specific one is provided */}
-        <div className="absolute inset-0 z-0 bg-white">
-          <div className="w-full h-full bg-[url('/blog-dea.jpg')] bg-cover bg-center opacity-60" />
+        <div className="absolute inset-0 z-0 bg-black">
+          <div className="w-full h-full bg-[url('/blog-dea.jpg')] bg-cover bg-center opacity-65" />
         </div>
 
         <div className="relative z-20 text-center px-4">
           <h1 
-            className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#e80000] tracking-widest uppercase"
-            style={{ textShadow: '2px 2px 6px rgba(255,255,255,0.85), 0px 0px 12px rgba(255,255,255,0.6)' }}
+            className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#fc0000] tracking-widest uppercase"
+            style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.85), 0px 1px 3px rgba(0,0,0,0.9)' }}
           >
             CONTACTO
           </h1>

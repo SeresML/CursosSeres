@@ -11,8 +11,8 @@ export default function Gracias() {
 
         <div className="relative z-20 text-center px-4 mt-2 md:mt-4">
           <h1
-            className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#e80000] tracking-widest uppercase"
-            style={{ textShadow: "2px 2px 6px rgba(255,255,255,0.85), 0px 0px 12px rgba(255,255,255,0.6)" }}
+            className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#fc0000] tracking-widest uppercase"
+            style={{ textShadow: "2px 2px 6px rgba(0,0,0,0.85), 0px 1px 3px rgba(0,0,0,0.9)" }}
           >
             ¡MUCHAS GRACIAS!
           </h1>
