@@ -35,14 +35,14 @@ export default function RcpYDea() {
       </section>
 
       {/* Content: Zigzag Layout */}
-      <section className="py-24 bg-white overflow-hidden">
-        <div className="max-w-6xl mx-auto px-6 flex flex-col gap-24">
+      <section className="py-12 md:py-24 bg-white overflow-hidden">
+        <div className="max-w-6xl mx-auto px-6 flex flex-col gap-16 md:gap-24">
           
           {/* Row 1: Image Left, Text Right */}
-          <div className="flex flex-col md:flex-row items-center gap-12 md:gap-20">
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-20">
             {/* Image Illustration */}
             <div className="w-full md:w-1/2 flex justify-center">
-               <div className="relative w-full max-w-sm h-64 md:h-80 flex items-center justify-center">
+               <div className="relative w-full max-w-sm h-56 md:h-80 flex items-center justify-center">
                  <Image src="/ilus-cpr.png" alt="Ilustración RCP Compresiones" fill className="object-contain" />
                </div>
             </div>
@@ -52,14 +52,20 @@ export default function RcpYDea() {
               <p className="text-lg text-gray-700 leading-relaxed">
                 El objetivo del curso de RCP y DEA es que los integrantes de la empresa puedan adquirir las técnicas o maniobras de reanimación cardiopulmonar frente a un paro cardio respiratorio que tienden a sustituir las funciones vitales por un tiempo prudencial hasta que llegue ayuda avanzada para brindarle a la víctima una oportunidad de sobrevivir gracias al curso de <span className="text-[#fc0000] underline cursor-pointer">RCP y DEA</span> y que su empresa cumpla con la <span className="text-[#fc0000] underline cursor-pointer">Resolucion 905/15</span>.
               </p>
+              <a
+                href="#formulario"
+                className="mt-6 inline-block bg-[#fc0000] text-white px-8 py-3 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition"
+              >
+                CONTACTAR
+              </a>
             </div>
           </div>
 
           {/* Row 2: Text Left, Image Right */}
-          <div className="flex flex-col md:flex-row-reverse items-center gap-12 md:gap-20">
+          <div className="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-20">
             {/* Image Illustration */}
             <div className="w-full md:w-1/2 flex justify-center">
-               <div className="relative w-full max-w-sm h-64 md:h-80 flex items-center justify-center">
+               <div className="relative w-full max-w-sm h-56 md:h-80 flex items-center justify-center">
                  <Image src="/ilus-airway.png" alt="Ilustración RCP Vía Aérea" fill className="object-contain" />
                </div>
             </div>
@@ -69,11 +75,17 @@ export default function RcpYDea() {
               <p className="text-lg text-gray-700 leading-relaxed">
                 Los integrantes de la empresa aprenderan a reconocer los signos de un paro cardíaco, a realizar compresiones torácicas y ventilaciones, y a utilizar un DEA para restablecer el ritmo cardíaco normal. También aprenderan maniobras de desobstrucción en atragantamientos.
               </p>
+              <a
+                href="#formulario"
+                className="mt-6 inline-block bg-[#fc0000] text-white px-8 py-3 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition"
+              >
+                CONTACTAR
+              </a>
             </div>
           </div>
 
           {/* Contact Form Bottom */}
-          <div className="mt-20">
+          <div id="formulario" className="mt-10 md:mt-20 scroll-mt-10">
             <ContactForm />
           </div>
 

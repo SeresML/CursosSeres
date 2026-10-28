@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es" className="h-full antialiased">
+    <html lang="es" className="h-full antialiased scroll-smooth">
       <GoogleTagManager gtmId="GTM-NSXNM7T8" />
       <body className={`${jost.className} min-h-screen bg-gray-50 text-gray-900 flex flex-col`}>
         {/* Navbar Dinámico */}
