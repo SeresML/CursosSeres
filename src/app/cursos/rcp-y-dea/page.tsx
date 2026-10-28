@@ -14,7 +14,7 @@ export default function RcpYDea() {
         <div className="relative z-20 w-full max-w-7xl mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-12 mt-1 md:mt-2">
           {/* Left Side: Title */}
           <div className="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center">
-            <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-[#e80000] tracking-wider md:tracking-widest uppercase mb-1 md:mb-4 leading-tight" style={{ textShadow: '2px 2px 6px rgba(255,255,255,0.85), 0px 0px 12px rgba(255,255,255,0.6)' }}>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[44px] font-bold text-[#e80000] tracking-wide uppercase mb-1 md:mb-3 leading-tight whitespace-nowrap" style={{ textShadow: '2px 2px 6px rgba(255,255,255,0.85), 0px 0px 12px rgba(255,255,255,0.6)' }}>
               CURSO DE RCP Y DEA
             </h1>
             <p className="text-base sm:text-lg md:text-2xl text-white font-medium" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
