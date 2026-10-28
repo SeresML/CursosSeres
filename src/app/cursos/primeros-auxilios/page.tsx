@@ -5,7 +5,7 @@ export default function PrimerosAuxilios() {
   return (
     <>
       {/* Hero Section Split with Full-Width Background */}
-      <section className="relative w-full min-h-[100dvh] flex flex-col justify-start md:justify-center items-center pt-[70px] sm:pt-[76px] md:pt-28 pb-4 md:pb-12">
+      <section className="relative w-full h-auto md:min-h-[100dvh] flex flex-col justify-start md:justify-center items-center pt-[70px] sm:pt-[76px] md:pt-28 pb-5 sm:pb-8 md:pb-12">
         <div className="absolute inset-0 z-0 bg-black">
           <div className="w-full h-full bg-[url('/bg.png')] bg-cover bg-center opacity-70" />
         </div>
