@@ -67,10 +67,10 @@ export default function ContactForm({ title = "Complete el formulario", hideTitl
   }, [estado, pathname]);
 
   const inputClasses =
-    "w-full border-2 border-gray-500 rounded-xl bg-[#fbfbfb] px-3.5 py-2 text-sm md:text-base font-medium text-gray-900 placeholder-gray-700 focus:outline-none focus:border-[#fc0000] transition-colors";
+    "w-full border-2 border-gray-500 rounded-xl bg-[#fbfbfb] px-3.5 py-1.5 md:py-2 text-sm md:text-base font-medium text-gray-900 placeholder-gray-700 focus:outline-none focus:border-[#fc0000] transition-colors";
 
   const formElement = (
-    <form action={formAction} className="w-full flex flex-col gap-2.5">
+    <form action={formAction} className="w-full flex flex-col gap-2">
       <input type="hidden" name="origen" value={pathname} />
       <input type="text" name="web" tabIndex={-1} autoComplete="off" aria-hidden="true" className="hidden" />
       <input
@@ -104,11 +104,11 @@ export default function ContactForm({ title = "Complete el formulario", hideTitl
         className={`${inputClasses} resize-y`}
       ></textarea>
 
-      <div className="mt-1.5 text-center md:text-left">
+      <div className="mt-1 text-center md:text-left">
         <button
           type="submit"
           disabled={enviando}
-          className="bg-[#fc0000] text-white px-8 py-2.5 rounded-full font-bold text-sm md:text-base tracking-wider uppercase hover:bg-red-700 transition disabled:opacity-60"
+          className="bg-[#fc0000] text-white px-8 py-2 rounded-full font-bold text-sm md:text-base tracking-wider uppercase hover:bg-red-700 transition disabled:opacity-60"
         >
           {enviando ? "ENVIANDO..." : "ENVIAR"}
         </button>
@@ -127,8 +127,8 @@ export default function ContactForm({ title = "Complete el formulario", hideTitl
 
   return (
     <div className="w-full flex flex-col items-center">
-      <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-300 p-5 sm:p-6 md:p-7 w-full max-w-lg">
-        <h2 className="text-xl md:text-2xl font-bold text-[#fc0000] underline decoration-2 underline-offset-4 mb-4 text-center">
+      <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-300 p-4 sm:p-5 md:p-6 w-full max-w-lg">
+        <h2 className="text-xl md:text-2xl font-bold text-[#fc0000] underline decoration-2 underline-offset-4 mb-3 text-center">
           {title}
         </h2>
         {formElement}
