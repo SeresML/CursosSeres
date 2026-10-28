@@ -5,7 +5,7 @@ export default function Blog() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full h-[65vh] min-h-[450px] flex items-center justify-center overflow-hidden">
+      <section className="relative w-full h-[34vh] min-h-[230px] md:h-[65vh] md:min-h-[450px] flex items-center justify-center overflow-hidden pt-10 md:pt-0">
         {/* Background Image */}
         <div className="absolute inset-0 z-0 bg-black">
           {/* Placeholder image for the blog hero */}
@@ -13,15 +13,15 @@ export default function Blog() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-20 flex flex-col items-center text-center px-4 w-full mt-4">
+        <div className="relative z-20 flex flex-col items-center text-center px-4 w-full mt-2 md:mt-4">
           <h1 
-            className="text-5xl md:text-6xl lg:text-[72px] font-bold text-[#e80000] tracking-normal mb-4 leading-none"
+            className="text-3xl sm:text-5xl md:text-6xl lg:text-[72px] font-bold text-[#e80000] tracking-normal mb-2 md:mb-4 leading-none"
             style={{ textShadow: '2px 2px 6px rgba(255,255,255,0.85), 0px 0px 12px rgba(255,255,255,0.6)' }}
           >
             NUESTRO BLOG
           </h1>
           <h2 
-            className="text-2xl md:text-4xl lg:text-[34px] text-white tracking-wider font-medium"
+            className="text-base sm:text-2xl md:text-4xl lg:text-[34px] text-white tracking-wider font-medium"
             style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8), 0px 2px 8px rgba(0,0,0,0.5)' }}
           >
             NOVEDADES Y CONSEJOS
@@ -29,7 +29,7 @@ export default function Blog() {
           
           <Link 
             href="/contacto" 
-            className="mt-12 bg-[#fc0000] text-white px-12 py-4 rounded-full font-bold tracking-[0.2em] text-[17px] hover:bg-red-700 transition"
+            className="mt-4 md:mt-12 bg-[#fc0000] text-white px-7 py-2.5 md:px-12 md:py-4 rounded-full font-bold tracking-[0.2em] text-sm md:text-[17px] hover:bg-red-700 transition"
           >
             CONTACTO
           </Link>
@@ -37,7 +37,7 @@ export default function Blog() {
       </section>
 
       {/* Main Content (Blog Posts Grid) */}
-      <div className="py-20 bg-gray-50 min-h-[70vh]">
+      <div className="py-8 md:py-20 bg-gray-50 min-h-[70vh]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Post 1 */}

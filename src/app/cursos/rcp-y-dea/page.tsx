@@ -6,26 +6,26 @@ export default function RcpYDea() {
   return (
     <>
       {/* Hero Section Split with Full-Width Background */}
-      <section className="relative w-full min-h-[600px] flex items-center justify-center pt-32 pb-16">
+      <section className="relative w-full min-h-[100dvh] md:min-h-[600px] flex items-center justify-center pt-20 pb-6 md:pt-32 md:pb-16">
         <div className="absolute inset-0 z-0 bg-black">
           <div className="w-full h-full bg-[url('/bg.png')] bg-cover bg-center opacity-70" />
         </div>
         
-        <div className="relative z-20 w-full max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-12 mt-12">
+        <div className="relative z-20 w-full max-w-7xl mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-12 mt-2 md:mt-12">
           {/* Left Side: Title */}
           <div className="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#e80000] tracking-widest uppercase mb-4 leading-tight" style={{ textShadow: '2px 2px 6px rgba(255,255,255,0.85), 0px 0px 12px rgba(255,255,255,0.6)' }}>
+            <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-[#e80000] tracking-wider md:tracking-widest uppercase mb-1 md:mb-4 leading-tight" style={{ textShadow: '2px 2px 6px rgba(255,255,255,0.85), 0px 0px 12px rgba(255,255,255,0.6)' }}>
               CURSO DE RCP Y DEA
             </h1>
-            <p className="text-xl md:text-2xl text-white font-medium" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
+            <p className="text-base sm:text-lg md:text-2xl text-white font-medium" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
               Para Empresas
             </p>
           </div>
 
           {/* Right Side: Form in a Card */}
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-            <div className="bg-white rounded-2xl shadow-2xl border-2 border-gray-300 p-8 md:p-10 w-full max-w-lg">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#fc0000] mb-6 text-center">
+            <div className="bg-white rounded-2xl shadow-2xl border-2 border-gray-300 p-5 sm:p-7 md:p-10 w-full max-w-lg">
+              <h2 className="text-xl md:text-3xl font-bold text-[#fc0000] mb-3 md:mb-6 text-center">
                 Complete el formulario
               </h2>
               <ContactForm hideTitle={true} />

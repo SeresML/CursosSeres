@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <header className="absolute w-full top-0 z-50">
-      <div className="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 md:py-6 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center drop-shadow-md">
           <Image
@@ -18,7 +18,7 @@ export default function Header() {
             alt="Seres Salud Cursos"
             width={360}
             height={110}
-            className="w-[210px] sm:w-[270px] md:w-[340px] h-auto object-contain"
+            className="w-[175px] sm:w-[240px] md:w-[340px] h-auto object-contain"
             priority
           />
         </Link>

@@ -5,7 +5,7 @@ export default function Contacto() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full h-[40vh] min-h-[300px] flex items-center justify-center overflow-hidden">
+      <section className="relative w-full h-[22vh] min-h-[155px] md:h-[40vh] md:min-h-[300px] flex items-center justify-center overflow-hidden pt-10 md:pt-0">
         {/* Background Image - placeholder using the home bg until a specific one is provided */}
         <div className="absolute inset-0 z-0 bg-white">
           <div className="w-full h-full bg-[url('/blog-dea.jpg')] bg-cover bg-center opacity-60" />
@@ -13,7 +13,7 @@ export default function Contacto() {
 
         <div className="relative z-20 text-center px-4">
           <h1 
-            className="text-6xl md:text-8xl font-bold text-[#e80000] tracking-widest uppercase"
+            className="text-4xl sm:text-6xl md:text-8xl font-bold text-[#e80000] tracking-widest uppercase"
             style={{ textShadow: '2px 2px 6px rgba(255,255,255,0.85), 0px 0px 12px rgba(255,255,255,0.6)' }}
           >
             CONTACTO
@@ -22,8 +22,8 @@ export default function Contacto() {
       </section>
 
       {/* Main Content */}
-      <section className="py-24 bg-white">
-        <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-start">
+      <section className="py-6 md:py-24 bg-white">
+        <div className="max-w-6xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-24 items-start">
           
           {/* Left Column: Form */}
           <div className="flex flex-col items-center w-full">
