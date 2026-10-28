@@ -28,7 +28,7 @@ export default function Home() {
               textShadow: '2px 2px 4px rgba(0,0,0,0.8), 0px 2px 8px rgba(0,0,0,0.5)' 
             }}
           >
-            CAPACITE A SUS EMPLEADOS
+            CAPACITACIÓN IN-COMPANY PARA EMPRESAS
           </h2>
           
           <Link 
@@ -44,8 +44,8 @@ export default function Home() {
       <section className="py-5 md:py-24 bg-white text-center">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           <p className="text-sm sm:text-lg md:text-[28px] font-medium text-gray-900 leading-snug">
-            Hace tu Cursos de RCP y DEA. El objetivo es que puedan adquirir las técnicas o maniobras que tienden a sustituir las funciones vitales<br className="hidden xl:block" />
-            por un tiempo prudencial hasta que llegue ayuda avanzada para brindarle a la víctima una oportunidad de sobrevivir.
+            Brindamos entrenamiento práctico para que su equipo adquiera las maniobras vitales de asistencia inmediata<br className="hidden xl:block" />
+            hasta la llegada del servicio de emergencias, cumpliendo con la Resolución SRT 905/15.
           </p>
         </div>
       </section>

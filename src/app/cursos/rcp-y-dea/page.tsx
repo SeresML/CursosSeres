@@ -18,7 +18,7 @@ export default function RcpYDea() {
               CURSO DE RCP Y DEA
             </h1>
             <p className="text-base sm:text-lg md:text-2xl text-white font-medium" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
-              Para Empresas
+              Capacitación práctica In-Company con certificación oficial
             </p>
           </div>
 
@@ -48,9 +48,9 @@ export default function RcpYDea() {
             </div>
             {/* Text */}
             <div className="w-full md:w-1/2 text-center md:text-left">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Objetivo del Curso</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Preparación que Salva Vidas</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                El objetivo del curso de RCP y DEA es que los integrantes de la empresa puedan adquirir las técnicas o maniobras de reanimación cardiopulmonar frente a un paro cardio respiratorio que tienden a sustituir las funciones vitales por un tiempo prudencial hasta que llegue ayuda avanzada para brindarle a la víctima una oportunidad de sobrevivir gracias al curso de <span className="text-[#fc0000] underline cursor-pointer">RCP y DEA</span> y que su empresa cumpla con la <span className="text-[#fc0000] underline cursor-pointer">Resolucion 905/15</span>.
+                Capacitamos a su personal en técnicas de reanimación cardiopulmonar para actuar de inmediato frente a un paro cardiorrespiratorio, manteniendo las funciones vitales hasta la llegada de asistencia médica avanzada y asegurando que su empresa cumpla con la <span className="text-[#fc0000] underline cursor-pointer">Resolución 905/15</span>.
               </p>
               <a
                 href="#formulario"
@@ -71,9 +71,9 @@ export default function RcpYDea() {
             </div>
             {/* Text */}
             <div className="w-full md:w-1/2 text-center md:text-right">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Prácticas</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Entrenamiento con Simuladores y DEA</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Los integrantes de la empresa aprenderan a reconocer los signos de un paro cardíaco, a realizar compresiones torácicas y ventilaciones, y a utilizar un DEA para restablecer el ritmo cardíaco normal. También aprenderan maniobras de desobstrucción en atragantamientos.
+                Los participantes aprenderán de forma práctica a identificar un paro cardíaco, aplicar compresiones torácicas efectivas, operar un Desfibrilador Externo Automático (DEA) con seguridad y ejecutar la maniobra de Heimlich ante obstrucciones de la vía aérea.
               </p>
               <a
                 href="#formulario"

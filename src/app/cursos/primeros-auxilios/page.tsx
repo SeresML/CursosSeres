@@ -19,7 +19,7 @@ export default function PrimerosAuxilios() {
               <span className="block whitespace-nowrap">PRIMEROS AUXILIOS</span>
             </h1>
             <p className="text-base sm:text-lg md:text-2xl text-white font-medium" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
-              Para Empresas
+              Respuesta rápida y eficaz ante emergencias en el ámbito laboral
             </p>
           </div>
 
@@ -49,12 +49,12 @@ export default function PrimerosAuxilios() {
             </div>
             {/* Text */}
             <div className="w-full md:w-1/2 text-center md:text-left">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Objetivo del Curso</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Asistencia Inmediata ante Accidentes</h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                El objetivo del curso de primeros auxilios es preparar a los integrantes de la empresa para que estén capacitados para aliviar el dolor de la víctima, evitar complicaciones mayores y que su empresa cumpla con la <span className="text-[#fc0000] underline cursor-pointer">Resolucion 905/15</span>.
+                Preparamos a los colaboradores de su empresa para actuar con solvencia ante incidentes o emergencias repentinas, aliviando el dolor del afectado, previniendo complicaciones mayores y cumpliendo con la <span className="text-[#fc0000] underline cursor-pointer">Resolución 905/15</span>.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Los cursos de primeros auxilios enseñan técnicas básicas para asistir a quienes sufran un incidente o enfermedad repentina, hasta la llegada de profesionales de la salud.
+                Su equipo dominará los protocolos esenciales de primera respuesta hasta la llegada de los profesionales de la salud.
               </p>
               <a
                 href="#formulario"
@@ -75,9 +75,9 @@ export default function PrimerosAuxilios() {
             </div>
             {/* Text */}
             <div className="w-full md:w-1/2 text-center md:text-right">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Prácticas</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Manejo Práctico de Lesiones y Emergencias</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                También brindaremos entrenamiento para identificar situaciones críticas, victimas y lesiones, y conocer herramientas prácticas de manejo inmediato por parte de personal no sanitario y facilitar la adquisición de habilidades prácticas.
+                Entrenamiento aplicado para evaluar escenarios críticos, controlar hemorragias, tratar quemaduras, inmovilizar traumatismos y asistir convulsiones o desmayos con herramientas claras para personal no sanitario.
               </p>
               <a
                 href="#formulario"

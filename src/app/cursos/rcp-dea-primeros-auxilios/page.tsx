@@ -19,7 +19,7 @@ export default function RcpDeaPrimerosAuxilios() {
               <span className="block whitespace-nowrap">PRIMEROS AUXILIOS</span>
             </h1>
             <p className="text-base sm:text-lg md:text-2xl text-white font-medium" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
-              Para Empresas
+              Programa integral de prevención y respuesta para empresas
             </p>
           </div>
 
@@ -49,9 +49,9 @@ export default function RcpDeaPrimerosAuxilios() {
             </div>
             {/* Text */}
             <div className="w-full md:w-1/2 text-center md:text-left">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Objetivo del Curso</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Cobertura Total ante Emergencias</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                El objetivo del curso de RCP, DEA Y PRIMEROS AUXILIOS es que los integrantes de la empresa puedan adquirir las técnicas o maniobras de reanimación cardiopulmonar frente a un paro cardio respiratorio que tienden a sustituir las funciones vitales por un tiempo prudencial hasta que llegue ayuda avanzada para brindarle a la víctima una oportunidad de sobrevivir y que su empresa cumpla con la <span className="text-[#fc0000] underline cursor-pointer">Resolucion 905/15</span>.
+                Integramos en una sola jornada las maniobras de reanimación cardiopulmonar (RCP), el manejo del desfibrilador (DEA) y la asistencia inicial en primeros auxilios, brindando una preparación completa para proteger a su personal y cumplir con la <span className="text-[#fc0000] underline cursor-pointer">Resolución 905/15</span>.
               </p>
               <a
                 href="#formulario"
@@ -72,9 +72,9 @@ export default function RcpDeaPrimerosAuxilios() {
             </div>
             {/* Text */}
             <div className="w-full md:w-1/2 text-center md:text-right">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Prácticas</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#fc0000] mb-6">Simulacros y Práctica Intensiva</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                También brindaremos entrenamiento para identificar situaciones críticas, victimas y lesiones, y conocer herramientas prácticas de manejo inmediato por parte de personal no sanitario y facilitar la adquisición de habilidades prácticas.
+                Realizamos ejercicios prácticos con muñecos simuladores y equipamiento DEA de entrenamiento, combinados con técnicas de atención ante accidentes frecuentes para que cada colaborador actúe con seguridad y rapidez.
               </p>
               <a
                 href="#formulario"
