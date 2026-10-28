@@ -5,16 +5,16 @@ export default function Contacto() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full h-[18vh] min-h-[135px] md:h-[22vh] md:min-h-[165px] flex items-center justify-center overflow-hidden pt-8 md:pt-6">
+      <section className="relative w-full h-[15vh] min-h-[115px] md:h-[22vh] md:min-h-[165px] flex items-center justify-center overflow-hidden pt-8 md:pt-6">
         {/* Background Image - placeholder using the home bg until a specific one is provided */}
         <div className="absolute inset-0 z-0 bg-black">
           <div className="w-full h-full bg-[url('/blog-dea.jpg')] bg-cover bg-center opacity-65" />
         </div>
 
-        <div className="relative z-20 text-center px-4 -mt-1 md:-mt-2">
+        <div className="relative z-20 text-center px-3 sm:px-4 -mt-1 md:-mt-2">
           <h1 
-            className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#e60000] tracking-widest uppercase"
-            style={{ textShadow: '-0.5px -0.5px 0px rgba(255,255,255,0.85), 2px 2px 0px rgba(255,255,255,0.9)' }}
+            className="text-3xl sm:text-5xl md:text-6xl font-bold text-[#e60000] tracking-widest uppercase"
+            style={{ textShadow: '1px 1px 0px rgba(255,255,255,0.9), -0.5px -0.5px 0px rgba(255,255,255,0.8)' }}
           >
             CONTACTO
           </h1>
@@ -22,8 +22,8 @@ export default function Contacto() {
       </section>
 
       {/* Main Content */}
-      <section className="py-4 md:py-6 bg-white">
-        <div className="max-w-6xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
+      <section className="py-3 md:py-6 bg-white">
+        <div className="max-w-6xl mx-auto px-3 sm:px-4 md:px-6 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-16 items-center">
           
           {/* Left Column: Form */}
           <div className="flex flex-col items-center w-full">

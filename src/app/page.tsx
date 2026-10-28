@@ -13,17 +13,17 @@ export default function Home() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-20 flex flex-col items-center text-center px-4 w-full -mt-2 sm:-mt-4 md:-mt-8">
+        <div className="relative z-20 flex flex-col items-center text-center px-3 sm:px-4 w-full -mt-2 sm:-mt-4 md:-mt-8">
           <h1 
-            className="text-3xl sm:text-5xl md:text-6xl lg:text-[72px] font-bold text-[#e60000] tracking-normal mb-2 md:mb-4 leading-none"
+            className="text-2xl sm:text-5xl md:text-6xl lg:text-[72px] font-bold text-[#e60000] tracking-normal mb-2 md:mb-4 leading-none"
             style={{ 
-              textShadow: '-0.5px -0.5px 0px rgba(255,255,255,0.85), 2px 2px 0px rgba(255,255,255,0.9)'
+              textShadow: '1px 1px 0px rgba(255,255,255,0.9), -0.5px -0.5px 0px rgba(255,255,255,0.8)'
             }}
           >
             CURSOS DE RCP Y DEA
           </h1>
           <h2 
-            className="text-sm sm:text-lg md:text-2xl text-white tracking-wider font-medium whitespace-nowrap"
+            className="text-xs sm:text-lg md:text-2xl text-white tracking-normal sm:tracking-wider font-medium whitespace-nowrap"
             style={{ 
               textShadow: '2px 2px 4px rgba(0,0,0,0.8), 0px 2px 8px rgba(0,0,0,0.5)' 
             }}

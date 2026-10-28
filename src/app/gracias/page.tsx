@@ -4,15 +4,15 @@ export default function Gracias() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full h-[28vh] min-h-[210px] md:h-[32vh] md:min-h-[245px] flex items-center justify-center overflow-hidden pt-12 md:pt-14">
+      <section className="relative w-full h-[22vh] min-h-[160px] md:h-[32vh] md:min-h-[245px] flex items-center justify-center overflow-hidden pt-10 md:pt-14">
         <div className="absolute inset-0 z-0 bg-black">
           <div className="w-full h-full bg-[url('/bg.jpg')] bg-cover bg-center opacity-70" />
         </div>
 
-        <div className="relative z-20 text-center px-4">
+        <div className="relative z-20 text-center px-3 sm:px-4">
           <h1
-            className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#e60000] tracking-widest uppercase"
-            style={{ textShadow: "-0.5px -0.5px 0px rgba(255,255,255,0.85), 2px 2px 0px rgba(255,255,255,0.9)" }}
+            className="text-2xl sm:text-4xl md:text-5xl font-bold text-[#e60000] tracking-widest uppercase"
+            style={{ textShadow: "1px 1px 0px rgba(255,255,255,0.9), -0.5px -0.5px 0px rgba(255,255,255,0.8)" }}
           >
             ¡MUCHAS GRACIAS!
           </h1>
@@ -20,8 +20,8 @@ export default function Gracias() {
       </section>
 
       {/* Main Content */}
-      <section className="py-4 md:py-6 bg-white flex items-center justify-center px-4">
-        <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-300 p-5 md:p-7 max-w-xl w-full text-center flex flex-col items-center">
+      <section className="py-3 md:py-6 bg-white flex items-center justify-center px-3 sm:px-4">
+        <div className="bg-white rounded-2xl shadow-xl border sm:border-2 border-gray-300 p-4 sm:p-5 md:p-7 max-w-xl w-full text-center flex flex-col items-center">
           <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-red-50 text-[#fc0000] flex items-center justify-center mb-3">
             <svg
               className="w-7 h-7 md:w-8 md:h-8"

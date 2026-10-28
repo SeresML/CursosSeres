@@ -76,10 +76,10 @@ export default function ContactForm({ title = "Complete el formulario", hideTitl
   }
 
   const inputClasses =
-    "w-full border-2 border-gray-500 rounded-xl bg-[#fbfbfb] px-3.5 py-1.5 md:py-2 text-sm md:text-base font-medium text-gray-900 placeholder-gray-700 focus:outline-none focus:border-[#fc0000] transition-colors";
+    "w-full border sm:border-2 border-gray-500 rounded-xl bg-[#fbfbfb] px-3 py-1 sm:py-1.5 md:py-2 text-sm md:text-base font-medium text-gray-900 placeholder-gray-700 focus:outline-none focus:border-[#fc0000] transition-colors";
 
   const formElement = (
-    <form onSubmit={handleSubmit} className="w-full flex flex-col gap-2">
+    <form onSubmit={handleSubmit} className="w-full flex flex-col gap-1.5 sm:gap-2">
       <input type="hidden" name="origen" value={pathname} />
       <input type="text" name="web" tabIndex={-1} autoComplete="off" aria-hidden="true" className="hidden" />
       <input
@@ -136,8 +136,8 @@ export default function ContactForm({ title = "Complete el formulario", hideTitl
 
   return (
     <div className="w-full flex flex-col items-center">
-      <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-300 p-4 sm:p-5 md:p-6 w-full max-w-lg">
-        <h2 className="text-xl md:text-2xl font-bold text-[#fc0000] underline decoration-2 underline-offset-4 mb-3 text-center">
+      <div className="bg-white rounded-2xl shadow-xl border sm:border-2 border-gray-300 p-3 sm:p-5 md:p-6 w-full max-w-lg">
+        <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-[#fc0000] underline decoration-2 underline-offset-4 mb-2 sm:mb-3 text-center">
           {title}
         </h2>
         {formElement}

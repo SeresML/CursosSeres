@@ -13,10 +13,10 @@ export default function Blog() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-20 flex flex-col items-center text-center px-4 w-full -mt-2 sm:-mt-4 md:-mt-8">
+        <div className="relative z-20 flex flex-col items-center text-center px-3 sm:px-4 w-full -mt-2 sm:-mt-4 md:-mt-8">
           <h1 
-            className="text-3xl sm:text-5xl md:text-6xl lg:text-[72px] font-bold text-[#e60000] tracking-normal mb-2 md:mb-4 leading-none"
-            style={{ textShadow: '-0.5px -0.5px 0px rgba(255,255,255,0.85), 2px 2px 0px rgba(255,255,255,0.9)' }}
+            className="text-2xl sm:text-5xl md:text-6xl lg:text-[72px] font-bold text-[#e60000] tracking-normal mb-2 md:mb-4 leading-none"
+            style={{ textShadow: '1px 1px 0px rgba(255,255,255,0.9), -0.5px -0.5px 0px rgba(255,255,255,0.8)' }}
           >
             NUESTRO BLOG
           </h1>

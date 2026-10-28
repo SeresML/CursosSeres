@@ -6,27 +6,27 @@ export default function PrimerosAuxilios() {
   return (
     <>
       {/* Hero Section Split with Full-Width Background */}
-      <section className="relative w-full min-h-[100dvh] flex items-center justify-center pt-16 pb-6 md:pt-20 md:pb-8">
+      <section className="relative w-full min-h-[100dvh] flex items-center justify-center pt-14 pb-3 md:pt-20 md:pb-8">
         <div className="absolute inset-0 z-0 bg-black">
           <div className="w-full h-full bg-[url('/bg.png')] bg-cover bg-center opacity-70" />
         </div>
         
-        <div className="relative z-20 w-full max-w-7xl mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-3 md:gap-12">
+        <div className="relative z-20 w-full max-w-7xl mx-auto px-3 sm:px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-2.5 md:gap-12">
           {/* Left Side: Title */}
           <div className="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center -mt-1 md:-mt-16 lg:-mt-20">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[42px] font-bold text-[#e60000] tracking-wide uppercase mb-1 md:mb-3 leading-tight" style={{ textShadow: '-0.5px -0.5px 0px rgba(255,255,255,0.85), 2px 2px 0px rgba(255,255,255,0.9)' }}>
+            <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-[42px] font-bold text-[#e60000] tracking-wide uppercase mb-1 md:mb-3 leading-tight" style={{ textShadow: '1px 1px 0px rgba(255,255,255,0.9), -0.5px -0.5px 0px rgba(255,255,255,0.8)' }}>
               <span className="block whitespace-nowrap">CURSO DE</span>
               <span className="block whitespace-nowrap">PRIMEROS AUXILIOS</span>
             </h1>
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white font-medium whitespace-nowrap" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
+            <p className="text-xs sm:text-base md:text-lg lg:text-xl text-white font-medium whitespace-nowrap" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
               Respuesta rápida ante emergencias laborales
             </p>
           </div>
 
           {/* Right Side: Form in a Card */}
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-            <div className="bg-white rounded-2xl shadow-2xl border-2 border-gray-300 p-5 sm:p-6 md:p-7 w-full max-w-lg">
-              <h2 className="text-xl md:text-2xl font-bold text-[#fc0000] mb-3 md:mb-4 text-center">
+            <div className="bg-white rounded-2xl shadow-2xl border sm:border-2 border-gray-300 p-3 sm:p-5 md:p-6 w-full max-w-lg">
+              <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-[#fc0000] mb-2 md:mb-3 text-center">
                 Complete el formulario
               </h2>
               <ContactForm hideTitle={true} />
