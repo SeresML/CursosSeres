@@ -4,12 +4,12 @@ export default function Gracias() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full h-[22vh] min-h-[160px] md:h-[32vh] md:min-h-[245px] flex items-center justify-center overflow-hidden pt-10 md:pt-14">
+      <section className="relative w-full h-[22vh] min-h-[160px] md:h-[35vh] md:min-h-[250px] flex items-center justify-center overflow-hidden pt-12 md:pt-28 pb-4 md:pb-10">
         <div className="absolute inset-0 z-0 bg-black">
           <div className="w-full h-full bg-[url('/bg.jpg')] bg-cover bg-center opacity-70" />
         </div>
 
-        <div className="relative z-20 text-center px-3 sm:px-4">
+        <div className="relative z-20 text-center px-3 sm:px-4 mt-1 md:mt-6">
           <h1
             className="text-2xl sm:text-4xl md:text-5xl font-bold text-[#e60000] tracking-widest uppercase"
             style={{ textShadow: "1px 1px 0px rgba(255,255,255,0.9), -0.5px -0.5px 0px rgba(255,255,255,0.8)" }}

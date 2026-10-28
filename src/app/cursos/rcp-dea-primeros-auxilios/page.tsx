@@ -6,14 +6,14 @@ export default function RcpDeaPrimerosAuxilios() {
   return (
     <>
       {/* Hero Section Split with Full-Width Background */}
-      <section className="relative w-full min-h-[100dvh] flex flex-col justify-start md:justify-center items-center pt-[70px] sm:pt-[76px] md:pt-20 pb-4 md:pb-8">
+      <section className="relative w-full min-h-[100dvh] flex flex-col justify-start md:justify-center items-center pt-[70px] sm:pt-[76px] md:pt-28 pb-4 md:pb-12">
         <div className="absolute inset-0 z-0 bg-black">
           <div className="w-full h-full bg-[url('/bg.png')] bg-cover bg-center opacity-70" />
         </div>
         
         <div className="relative z-20 w-full max-w-7xl mx-auto px-3 sm:px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-2 md:gap-12">
           {/* Left Side: Title */}
-          <div className="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center -mt-1 md:-mt-16 lg:-mt-20">
+          <div className="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center -mt-1 md:mt-0">
             <h1 className="text-lg sm:text-2xl md:text-3xl lg:text-[38px] xl:text-[42px] font-bold text-[#e60000] tracking-wide uppercase mb-1 md:mb-3 leading-tight" style={{ textShadow: '1px 1px 0px rgba(255,255,255,0.9), -0.5px -0.5px 0px rgba(255,255,255,0.8)' }}>
               <span className="block whitespace-nowrap">CURSO DE RCP, DEA Y</span>
               <span className="block whitespace-nowrap">PRIMEROS AUXILIOS</span>
@@ -54,7 +54,9 @@ export default function RcpDeaPrimerosAuxilios() {
                 Integramos en una sola jornada las maniobras de reanimación cardiopulmonar (RCP), el manejo del desfibrilador (DEA) y la asistencia inicial en primeros auxilios, brindando una preparación completa para proteger a su personal y cumplir con la <span className="text-[#fc0000] underline cursor-pointer">Resolución 905/15</span>.
               </p>
               <a
-                href="#formulario"
+                href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-6 inline-block bg-[#fc0000] text-white px-8 py-3 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition"
               >
                 CONTACTAR
@@ -77,7 +79,9 @@ export default function RcpDeaPrimerosAuxilios() {
                 Realizamos ejercicios prácticos con muñecos simuladores y equipamiento DEA de entrenamiento, combinados con técnicas de atención ante accidentes frecuentes para que cada colaborador actúe con seguridad y rapidez.
               </p>
               <a
-                href="#formulario"
+                href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-6 inline-block bg-[#fc0000] text-white px-8 py-3 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition"
               >
                 CONTACTAR

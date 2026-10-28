@@ -5,13 +5,13 @@ export default function Contacto() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full h-[15vh] min-h-[115px] md:h-[22vh] md:min-h-[165px] flex items-center justify-center overflow-hidden pt-8 md:pt-6">
+      <section className="relative w-full h-[18vh] min-h-[135px] md:h-[32vh] md:min-h-[240px] flex items-center justify-center overflow-hidden pt-12 md:pt-28 pb-4 md:pb-10">
         {/* Background Image - placeholder using the home bg until a specific one is provided */}
         <div className="absolute inset-0 z-0 bg-black">
           <div className="w-full h-full bg-[url('/blog-dea.jpg')] bg-cover bg-center opacity-65" />
         </div>
 
-        <div className="relative z-20 text-center px-3 sm:px-4 -mt-1 md:-mt-2">
+        <div className="relative z-20 text-center px-3 sm:px-4 mt-1 md:mt-6">
           <h1 
             className="text-3xl sm:text-5xl md:text-6xl font-bold text-[#e60000] tracking-widest uppercase"
             style={{ textShadow: '1px 1px 0px rgba(255,255,255,0.9), -0.5px -0.5px 0px rgba(255,255,255,0.8)' }}

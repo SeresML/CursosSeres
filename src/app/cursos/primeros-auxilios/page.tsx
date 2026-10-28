@@ -6,14 +6,14 @@ export default function PrimerosAuxilios() {
   return (
     <>
       {/* Hero Section Split with Full-Width Background */}
-      <section className="relative w-full min-h-[100dvh] flex flex-col justify-start md:justify-center items-center pt-[70px] sm:pt-[76px] md:pt-20 pb-4 md:pb-8">
+      <section className="relative w-full min-h-[100dvh] flex flex-col justify-start md:justify-center items-center pt-[70px] sm:pt-[76px] md:pt-28 pb-4 md:pb-12">
         <div className="absolute inset-0 z-0 bg-black">
           <div className="w-full h-full bg-[url('/bg.png')] bg-cover bg-center opacity-70" />
         </div>
         
         <div className="relative z-20 w-full max-w-7xl mx-auto px-3 sm:px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-2 md:gap-12">
           {/* Left Side: Title */}
-          <div className="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center -mt-1 md:-mt-16 lg:-mt-20">
+          <div className="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center -mt-1 md:mt-0">
             <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-[42px] font-bold text-[#e60000] tracking-wide uppercase mb-1 md:mb-3 leading-tight" style={{ textShadow: '1px 1px 0px rgba(255,255,255,0.9), -0.5px -0.5px 0px rgba(255,255,255,0.8)' }}>
               <span className="block whitespace-nowrap">CURSO DE</span>
               <span className="block whitespace-nowrap">PRIMEROS AUXILIOS</span>
@@ -57,7 +57,9 @@ export default function PrimerosAuxilios() {
                 Su equipo dominará los protocolos esenciales de primera respuesta hasta la llegada de los profesionales de la salud.
               </p>
               <a
-                href="#formulario"
+                href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-6 inline-block bg-[#fc0000] text-white px-8 py-3 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition"
               >
                 CONTACTAR
@@ -80,7 +82,9 @@ export default function PrimerosAuxilios() {
                 Entrenamiento aplicado para evaluar escenarios críticos, controlar hemorragias, tratar quemaduras, inmovilizar traumatismos y asistir convulsiones o desmayos con herramientas claras para personal no sanitario.
               </p>
               <a
-                href="#formulario"
+                href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-6 inline-block bg-[#fc0000] text-white px-8 py-3 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition"
               >
                 CONTACTAR

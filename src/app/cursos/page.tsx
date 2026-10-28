@@ -5,14 +5,14 @@ export default function Cursos() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full h-[26vh] min-h-[200px] sm:h-[32vh] sm:min-h-[240px] md:h-[65vh] md:min-h-[450px] flex flex-col justify-start md:justify-center items-center overflow-hidden pt-[68px] pb-3 sm:pt-20 md:pt-0 md:pb-12">
+      <section className="relative w-full h-[26vh] min-h-[200px] sm:h-[32vh] sm:min-h-[240px] md:h-[65vh] md:min-h-[450px] flex flex-col justify-start md:justify-center items-center overflow-hidden pt-[68px] pb-3 sm:pt-20 md:pt-28 md:pb-16">
         {/* Background Image */}
         <div className="absolute inset-0 z-0 bg-black">
           <div className="w-full h-full bg-[url('/bg-cursos.png')] bg-cover bg-center opacity-70" />
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-20 flex flex-col items-center text-center px-3 sm:px-4 w-full -mt-1 sm:-mt-4 md:-mt-8">
+        <div className="relative z-20 flex flex-col items-center text-center px-3 sm:px-4 w-full -mt-1 sm:-mt-4 md:mt-0">
           <h1 
             className="text-2xl sm:text-5xl md:text-6xl lg:text-[72px] font-bold text-[#e60000] tracking-normal mb-1.5 md:mb-4 leading-none"
             style={{ 
@@ -30,12 +30,14 @@ export default function Cursos() {
             FORMACIÓN PRÁCTICA PARA SU EQUIPO
           </h2>
           
-          <Link 
-            href="/contacto" 
+          <a 
+            href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-3 sm:mt-5 md:mt-12 bg-[#fc0000] text-white px-6 py-2 sm:px-7 sm:py-2.5 md:px-12 md:py-4 rounded-full font-bold tracking-[0.2em] text-xs sm:text-sm md:text-[17px] hover:bg-red-700 transition"
           >
-            CONTACTO
-          </Link>
+            CONTACTAR
+          </a>
         </div>
       </section>
 
