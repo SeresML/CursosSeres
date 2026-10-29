@@ -13,10 +13,10 @@ export default function RcpYDea() {
         <div className="relative z-20 w-full max-w-7xl mx-auto px-3 sm:px-4 md:px-6 flex flex-col md:flex-row items-center md:items-start justify-between gap-2 md:gap-12">
           {/* Left Side: Title */}
           <div className="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center md:justify-start -mt-1 md:mt-0 md:pt-1">
-            <h1 className="text-[26px] sm:text-3xl md:text-4xl lg:text-[44px] font-bold text-[#e60000] tracking-wide uppercase mb-1 md:mb-3 leading-tight whitespace-nowrap" style={{ textShadow: '1px 1px 0px rgba(255,255,255,0.9), -0.5px -0.5px 0px rgba(255,255,255,0.8)' }}>
+            <h1 className="text-[26px] sm:text-3xl md:text-[38px] lg:text-[50px] xl:text-[56px] font-bold text-[#e60000] tracking-wide uppercase mb-1 md:mb-3 leading-tight whitespace-nowrap" style={{ textShadow: '1px 1px 0px rgba(255,255,255,0.9), -0.5px -0.5px 0px rgba(255,255,255,0.8)' }}>
               CURSO DE RCP Y DEA
             </h1>
-            <p className="text-xs sm:text-base md:text-lg lg:text-xl text-white font-medium whitespace-nowrap" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
+            <p className="text-xs sm:text-base md:text-lg lg:text-xl xl:text-[22px] text-white font-medium whitespace-nowrap" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
               Capacitación Práctica para Empresas
             </p>
           </div>
