@@ -45,8 +45,7 @@ export default function Home() {
       <section className="py-4 md:py-24 bg-white text-center">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           <p className="text-sm sm:text-lg md:text-[28px] font-medium text-gray-900 leading-snug">
-            Brindamos entrenamiento práctico para que su equipo adquiera las maniobras vitales de asistencia inmediata <br className="hidden xl:block" />
-            hasta la llegada del servicio de emergencias, cumpliendo con la{" "}
+            Brindamos entrenamiento práctico para que su equipo adquiera las maniobras vitales de asistencia inmediata hasta la llegada del servicio de emergencias, cumpliendo con la{" "}
             <a 
               href="https://www.argentina.gob.ar/normativa/nacional/resolucion-905-2015-246509" 
               target="_blank" 
