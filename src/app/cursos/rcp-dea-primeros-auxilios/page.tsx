@@ -35,7 +35,7 @@ export default function RcpDeaPrimerosAuxilios() {
       </section>
 
       {/* Content: Cards Layout */}
-      <section className="py-10 md:py-20 bg-gray-50 overflow-hidden">
+      <section className="pt-8 pb-6 md:pt-14 md:pb-10 bg-gray-50 overflow-hidden">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 flex flex-col gap-8 md:gap-10">
           
           {/* Card 1 */}

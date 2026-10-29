@@ -135,7 +135,7 @@ export default function Home() {
       </section>
 
       {/* Contact Form Section */}
-      <section className="py-10 md:py-24 bg-white flex flex-col items-center px-4 md:px-6">
+      <section className="pt-6 pb-6 md:pt-10 md:pb-10 bg-white flex flex-col items-center px-4 md:px-6">
         <ContactForm />
       </section>
     </>

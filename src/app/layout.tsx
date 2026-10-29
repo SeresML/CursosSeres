@@ -57,12 +57,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <WhatsAppButton />
 
         {/* Footer */}
-        <footer className="bg-[#f0f0f0] py-20 border-t border-gray-200">
-          <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 text-center">
+        <footer className="bg-[#f0f0f0] py-8 md:py-10 border-t border-gray-200">
+          <div className="max-w-4xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 text-center">
             {/* Column 1 */}
-            <div className="flex flex-col items-center gap-8">
-              <h3 className="text-2xl font-bold text-[#fc0000]">Nuestros Servicios</h3>
-              <div className="flex flex-col gap-5 text-base font-medium text-gray-800">
+            <div className="flex flex-col items-center gap-2.5 sm:gap-3">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#fc0000]">Nuestros Servicios</h3>
+              <div className="flex flex-col gap-1.5 sm:gap-2 text-sm sm:text-base font-medium text-gray-800">
                 <a href="https://seressalud.com.ar/" target="_blank" rel="noopener noreferrer" className="hover:text-[#fc0000] transition-colors">Medicina Laboral</a>
                 <a href="https://www.consultoriosmedicos.com.ar/" target="_blank" rel="noopener noreferrer" className="hover:text-[#fc0000] transition-colors">Medicina Asistencial</a>
                 <a href="https://www.analisisclinicos.com.ar/" target="_blank" rel="noopener noreferrer" className="hover:text-[#fc0000] transition-colors">Laboratorio de Análisis</a>
@@ -70,9 +70,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
             
             {/* Column 2 */}
-            <div className="flex flex-col items-center gap-8">
-              <h3 className="text-2xl font-bold text-[#fc0000]">Contacto</h3>
-              <div className="flex flex-col gap-5 text-base font-medium text-gray-800">
+            <div className="flex flex-col items-center gap-2.5 sm:gap-3">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#fc0000]">Contacto</h3>
+              <div className="flex flex-col gap-1.5 sm:gap-2 text-sm sm:text-base font-medium text-gray-800">
                 <a href="mailto:servicios@seressalud.com.ar" className="hover:text-[#fc0000] transition-colors">servicios@seressalud.com.ar</a>
                 <a href="https://wa.me/5491130170130?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#fc0000] transition-colors">11-3017-0130</a>
               </div>
