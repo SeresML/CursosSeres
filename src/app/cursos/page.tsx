@@ -1,4 +1,3 @@
-import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
 export default function Cursos() {
@@ -58,9 +57,14 @@ export default function Cursos() {
                 RCP y DEA
               </h3>
             </div>
-            <Link href="/cursos/rcp-y-dea" className="bg-[#fc0000] text-white px-3 py-1.5 sm:px-6 md:px-8 md:py-2.5 rounded-full font-bold text-[11px] sm:text-xs md:text-sm tracking-wider uppercase hover:bg-red-700 transition">
+            <a 
+              href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#fc0000] text-white px-3 py-1.5 sm:px-6 md:px-8 md:py-2.5 rounded-full font-bold text-[11px] sm:text-xs md:text-sm tracking-wider uppercase hover:bg-red-700 transition"
+            >
               CONSULTAR
-            </Link>
+            </a>
           </div>
           
           {/* Curso 2 */}
@@ -78,9 +82,14 @@ export default function Cursos() {
                 Primeros Auxilios
               </h3>
             </div>
-            <Link href="/cursos/primeros-auxilios" className="bg-[#fc0000] text-white px-3 py-1.5 sm:px-6 md:px-8 md:py-2.5 rounded-full font-bold text-[11px] sm:text-xs md:text-sm tracking-wider uppercase hover:bg-red-700 transition">
+            <a 
+              href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#fc0000] text-white px-3 py-1.5 sm:px-6 md:px-8 md:py-2.5 rounded-full font-bold text-[11px] sm:text-xs md:text-sm tracking-wider uppercase hover:bg-red-700 transition"
+            >
               CONSULTAR
-            </Link>
+            </a>
           </div>
 
           {/* Curso 3 */}
@@ -95,9 +104,14 @@ export default function Cursos() {
                 RCP, DEA y Primeros<br/>Auxilios
               </h3>
             </div>
-            <Link href="/cursos/rcp-dea-primeros-auxilios" className="bg-[#fc0000] text-white px-3 py-1.5 sm:px-6 md:px-8 md:py-2.5 rounded-full font-bold text-[11px] sm:text-xs md:text-sm tracking-wider uppercase hover:bg-red-700 transition">
+            <a 
+              href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#fc0000] text-white px-3 py-1.5 sm:px-6 md:px-8 md:py-2.5 rounded-full font-bold text-[11px] sm:text-xs md:text-sm tracking-wider uppercase hover:bg-red-700 transition"
+            >
               CONSULTAR
-            </Link>
+            </a>
           </div>
         </div>
       </section>
