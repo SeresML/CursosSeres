@@ -76,7 +76,7 @@ export default function ContactForm({ title = "Complete el Formulario", hideTitl
   }
 
   const inputClasses =
-    "w-full border sm:border-2 border-gray-500 rounded-xl bg-[#fbfbfb] px-3 py-1 sm:py-1.5 md:py-2 text-sm md:text-base font-medium text-gray-900 placeholder-gray-700 focus:outline-none focus:border-[#fc0000] transition-colors";
+    "w-full border sm:border-2 border-gray-500 rounded-xl bg-[#fbfbfb] px-3 py-1 sm:py-1.5 md:py-2 text-sm md:text-base font-medium text-gray-700 placeholder-gray-500 focus:outline-none focus:border-[#fc0000] transition-colors";
 
   const formElement = (
     <form onSubmit={handleSubmit} className="w-full flex flex-col gap-1.5 sm:gap-2">
