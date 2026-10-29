@@ -25,8 +25,8 @@ export default function RcpDeaPrimerosAuxilios() {
           {/* Right Side: Form in a Card */}
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
             <div className="bg-white rounded-2xl shadow-2xl border sm:border-2 border-gray-300 p-3 sm:p-5 md:p-6 w-full max-w-lg">
-              <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-[#fc0000] mb-2 md:mb-3 text-center">
-                Complete el Formulario
+              <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-[#fc0000] mb-2 md:mb-3 text-center uppercase">
+                COMPLETE EL FORMULARIO
               </h2>
               <ContactForm hideTitle={true} />
             </div>

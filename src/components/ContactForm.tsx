@@ -16,7 +16,7 @@ interface ContactFormProps {
   hideTitle?: boolean;
 }
 
-export default function ContactForm({ title = "Complete el Formulario", hideTitle = false }: ContactFormProps = {}) {
+export default function ContactForm({ title = "COMPLETE EL FORMULARIO", hideTitle = false }: ContactFormProps = {}) {
   const pathname = usePathname();
   const [enviando, setEnviando] = useState(false);
   const [errorMensaje, setErrorMensaje] = useState<string | null>(null);
@@ -137,7 +137,7 @@ export default function ContactForm({ title = "Complete el Formulario", hideTitl
   return (
     <div className="w-full flex flex-col items-center">
       <div className="bg-white rounded-2xl shadow-xl border sm:border-2 border-gray-300 p-3 sm:p-5 md:p-6 w-full max-w-lg">
-        <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-[#fc0000] underline decoration-2 underline-offset-4 mb-2 sm:mb-3 text-center">
+        <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-[#fc0000] underline decoration-2 underline-offset-4 mb-2 sm:mb-3 text-center uppercase">
           {title}
         </h2>
         {formElement}
