@@ -44,7 +44,15 @@ export default function PrimerosAuxilios() {
               Asistencia ante Accidentes
             </h2>
             <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-4 max-w-2xl">
-              Preparamos a los colaboradores de su empresa para actuar con solvencia ante incidentes o emergencias repentinas, aliviando el dolor del afectado, previniendo complicaciones mayores y cumpliendo con la <span className="text-[#fc0000] underline cursor-pointer">Resolución 905/15</span>.
+              Preparamos a los colaboradores de su empresa para actuar con solvencia ante incidentes o emergencias repentinas, aliviando el dolor del afectado, previniendo complicaciones mayores y cumpliendo con la{" "}
+              <a
+                href="https://www.argentina.gob.ar/normativa/nacional/resolucion-905-2015-246509"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#fc0000] underline hover:text-red-700 transition-colors"
+              >
+                Resolución 905/15
+              </a>.
             </p>
             <p className="text-base sm:text-lg text-gray-700 leading-relaxed max-w-2xl">
               Su equipo dominará los protocolos esenciales de primera respuesta hasta la llegada de los profesionales de la salud.

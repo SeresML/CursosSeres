@@ -43,7 +43,15 @@ export default function RcpYDea() {
               Preparación que Salva Vidas
             </h2>
             <p className="text-base sm:text-lg text-gray-700 leading-relaxed max-w-2xl">
-              Capacitamos a su personal en técnicas de reanimación cardiopulmonar para actuar de inmediato frente a un paro cardiorrespiratorio, manteniendo las funciones vitales hasta la llegada de asistencia médica avanzada y asegurando que su empresa cumpla con la <span className="text-[#fc0000] underline cursor-pointer">Resolución 905/15</span>.
+              Capacitamos a su personal en técnicas de reanimación cardiopulmonar para actuar de inmediato frente a un paro cardiorrespiratorio, manteniendo las funciones vitales hasta la llegada de asistencia médica avanzada y asegurando que su empresa cumpla con la{" "}
+              <a
+                href="https://www.argentina.gob.ar/normativa/nacional/resolucion-905-2015-246509"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#fc0000] underline hover:text-red-700 transition-colors"
+              >
+                Resolución 905/15
+              </a>.
             </p>
             <a
               href="https://wa.me/5491130170130?utm_source=chatgpt.com"
