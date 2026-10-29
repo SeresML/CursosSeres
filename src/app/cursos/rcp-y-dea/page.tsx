@@ -16,8 +16,8 @@ export default function RcpYDea() {
             <h1 className="text-[26px] sm:text-3xl md:text-[38px] lg:text-[50px] xl:text-[56px] font-bold text-[#e60000] tracking-wide uppercase mb-1 md:mb-3 leading-tight whitespace-nowrap" style={{ textShadow: '1px 1px 0px rgba(255,255,255,0.9), -0.5px -0.5px 0px rgba(255,255,255,0.8)' }}>
               CURSO DE RCP Y DEA
             </h1>
-            <p className="text-xs sm:text-base md:text-lg lg:text-xl xl:text-[22px] text-white font-medium whitespace-nowrap" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
-              Capacitación Práctica para Empresas
+            <p className="text-xs sm:text-base md:text-lg lg:text-xl xl:text-[22px] text-white font-medium tracking-wide uppercase whitespace-nowrap" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
+              CAPACITACIÓN PRÁCTICA PARA EMPRESAS
             </p>
           </div>
 

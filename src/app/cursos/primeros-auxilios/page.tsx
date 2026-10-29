@@ -17,8 +17,8 @@ export default function PrimerosAuxilios() {
               <span className="block whitespace-nowrap">CURSO DE</span>
               <span className="block whitespace-nowrap">PRIMEROS AUXILIOS</span>
             </h1>
-            <p className="text-xs sm:text-base md:text-lg lg:text-xl xl:text-[22px] text-white font-medium whitespace-nowrap" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
-              Respuesta Rápida ante Emergencias Laborales
+            <p className="text-xs sm:text-base md:text-lg lg:text-xl xl:text-[22px] text-white font-medium tracking-wide uppercase whitespace-nowrap" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
+              RESPUESTA RÁPIDA ANTE EMERGENCIAS LABORALES
             </p>
           </div>
 

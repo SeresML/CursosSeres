@@ -21,10 +21,10 @@ export default function Blog() {
             NUESTRO BLOG
           </h1>
           <h2 
-            className="text-sm sm:text-2xl md:text-4xl lg:text-[34px] text-white tracking-wider font-medium"
+            className="text-sm sm:text-2xl md:text-4xl lg:text-[34px] text-white tracking-wider font-medium uppercase"
             style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8), 0px 2px 8px rgba(0,0,0,0.5)' }}
           >
-            Novedades y Consejos
+            NOVEDADES Y CONSEJOS
           </h2>
           
           <a 

@@ -17,8 +17,8 @@ export default function RcpDeaPrimerosAuxilios() {
               <span className="block whitespace-nowrap">CURSO DE RCP, DEA Y</span>
               <span className="block whitespace-nowrap">PRIMEROS AUXILIOS</span>
             </h1>
-            <p className="text-xs sm:text-base md:text-lg lg:text-xl xl:text-[22px] text-white font-medium whitespace-nowrap" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
-              Prevención y Respuesta para Empresas
+            <p className="text-xs sm:text-base md:text-lg lg:text-xl xl:text-[22px] text-white font-medium tracking-wide uppercase whitespace-nowrap" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
+              PREVENCIÓN Y RESPUESTA PARA EMPRESAS
             </p>
           </div>
 
