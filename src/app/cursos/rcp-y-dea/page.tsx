@@ -54,7 +54,7 @@ export default function RcpYDea() {
               </a>.
             </p>
             <a
-              href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+              href="https://wa.me/5491166048055"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-block bg-[#fc0000] text-white px-8 py-3 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition shadow-md"
@@ -72,7 +72,7 @@ export default function RcpYDea() {
               Los participantes aprenderán de forma práctica a identificar un paro cardíaco, aplicar compresiones torácicas efectivas, operar un Desfibrilador Externo Automático (DEA) con seguridad y ejecutar la maniobra de Heimlich ante obstrucciones de la vía aérea.
             </p>
             <a
-              href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+              href="https://wa.me/5491166048055"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-block bg-[#fc0000] text-white px-8 py-3 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition shadow-md"

@@ -31,7 +31,7 @@ export default function Home() {
           </h2>
           
           <a 
-            href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+            href="https://wa.me/5491166048055"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-2.5 sm:mt-4 md:mt-12 bg-[#fc0000] text-white px-6 py-1.5 sm:px-7 sm:py-2.5 md:px-12 md:py-4 rounded-full font-bold tracking-[0.2em] text-xs sm:text-sm md:text-[17px] hover:bg-red-700 transition"
@@ -76,7 +76,7 @@ export default function Home() {
               </h3>
             </div>
             <a 
-              href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+              href="https://wa.me/5491166048055"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#fc0000] text-white px-3 py-1.5 sm:px-6 md:px-8 md:py-2.5 rounded-full font-bold text-[11px] sm:text-xs md:text-sm tracking-wider uppercase hover:bg-red-700 transition"
@@ -101,7 +101,7 @@ export default function Home() {
               </h3>
             </div>
             <a 
-              href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+              href="https://wa.me/5491166048055"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#fc0000] text-white px-3 py-1.5 sm:px-6 md:px-8 md:py-2.5 rounded-full font-bold text-[11px] sm:text-xs md:text-sm tracking-wider uppercase hover:bg-red-700 transition"
@@ -123,7 +123,7 @@ export default function Home() {
               </h3>
             </div>
             <a 
-              href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+              href="https://wa.me/5491166048055"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#fc0000] text-white px-3 py-1.5 sm:px-6 md:px-8 md:py-2.5 rounded-full font-bold text-[11px] sm:text-xs md:text-sm tracking-wider uppercase hover:bg-red-700 transition"

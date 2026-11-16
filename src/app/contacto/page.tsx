@@ -59,8 +59,8 @@ export default function Contacto() {
                       <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1" />
                     </svg>
                   </div>
-                  <a href="https://wa.me/5491130170130?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-xl text-gray-900 underline decoration-1 underline-offset-4 hover:text-[#fc0000] transition">
-                    11-3017-0130
+                  <a href="https://wa.me/5491166048055" target="_blank" rel="noopener noreferrer" className="text-xl text-gray-900 underline decoration-1 underline-offset-4 hover:text-[#fc0000] transition">
+                    11-6604-8055
                   </a>
                 </div>
               </div>

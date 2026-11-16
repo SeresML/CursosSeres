@@ -55,7 +55,7 @@ export default function RcpDeaPrimerosAuxilios() {
               </a>.
             </p>
             <a
-              href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+              href="https://wa.me/5491166048055"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-block bg-[#fc0000] text-white px-8 py-3 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition shadow-md"
@@ -73,7 +73,7 @@ export default function RcpDeaPrimerosAuxilios() {
               Realizamos ejercicios prácticos con muñecos simuladores y equipamiento DEA de entrenamiento, combinados con técnicas de atención ante accidentes frecuentes para que cada colaborador actúe con seguridad y rapidez.
             </p>
             <a
-              href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+              href="https://wa.me/5491166048055"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-block bg-[#fc0000] text-white px-8 py-3 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition shadow-md"

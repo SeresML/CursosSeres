@@ -58,7 +58,7 @@ export default function PrimerosAuxilios() {
               Su equipo dominará los protocolos esenciales de primera respuesta hasta la llegada de los profesionales de la salud.
             </p>
             <a
-              href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+              href="https://wa.me/5491166048055"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-block bg-[#fc0000] text-white px-8 py-3 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition shadow-md"
@@ -76,7 +76,7 @@ export default function PrimerosAuxilios() {
               Entrenamiento aplicado para evaluar escenarios críticos, controlar hemorragias, tratar quemaduras, inmovilizar traumatismos y asistir convulsiones o desmayos con herramientas claras para personal no sanitario.
             </p>
             <a
-              href="https://wa.me/5491130170130?utm_source=chatgpt.com"
+              href="https://wa.me/5491166048055"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-block bg-[#fc0000] text-white px-8 py-3 rounded-full font-bold text-sm tracking-wider uppercase hover:bg-red-700 transition shadow-md"
