@@ -9,7 +9,7 @@ import { sendGTMEvent } from "@next/third-parties/google";
 // confirma, no reenvía. FormSubmit activa por página de origen: con
 // referrerPolicy "origin" todas las páginas del sitio cuentan como una sola.
 const DESTINO = "gestionimpulsodigital@gmail.com";
-const COPIA = "servicios@seressalud.com.ar";
+const COPIA = "consultas@seressalud.com.ar";
 
 interface ContactFormProps {
   title?: string;

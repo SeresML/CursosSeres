@@ -24,7 +24,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 El formulario (`src/components/ContactForm.tsx`) manda cada consulta por mail con
 [FormSubmit](https://formsubmit.co) a gestionimpulsodigital@gmail.com, con copia a
-servicios@seressalud.com.ar. No necesita servidor ni variables de entorno.
+consultas@seressalud.com.ar. No necesita servidor ni variables de entorno.
 
 La primera consulta dispara un mail de activación a gestionimpulsodigital@gmail.com
 (la copia nunca lo recibe): hasta que se confirma, FormSubmit no reenvía nada.
